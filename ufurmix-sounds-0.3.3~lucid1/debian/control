@@ -1,0 +1,13 @@
+Source: ufurmix-sounds
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.3
+
+Package: ufurmix-sounds
+Architecture: all
+Depends: ${misc:Depends}
+Description: Ubuntu Furry Remix sound theme
+ This is the default Ubuntu Furry Remix sound theme. 
+ Based on Ubuntu and Freedesktop themes. Custom sounds written by Skybowl.

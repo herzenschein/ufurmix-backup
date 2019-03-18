@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>Tigers</name>
+    <filename>/usr/share/backgrounds/ufurmix-tigers.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#fff9e3</pcolor>
+    <scolor>#fff9e3</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Roar</name>
+    <filename>/usr/share/backgrounds/ufurmix-roar.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#17140f</pcolor>
+    <scolor>#17140f</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Earthen Ibex</name>
+    <filename>/usr/share/backgrounds/earthenibex-full-notext.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#0a0605</pcolor>
+    <scolor>#0a0605</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Ubuntu Lynx</name>
+    <filename>/usr/share/backgrounds/devos-ubuntu-lynx.png</filename>
+    <options>zoom</options>
+    <pcolor>#64195b</pcolor>
+    <scolor>#2c001e</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Wilderness</name>
+    <filename>/usr/share/backgrounds/ufurmix-wilderness.png</filename>
+    <options>scale</options>
+    <pcolor>#000000</pcolor>
+    <scolor>#000000</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Rock Painting</name>
+    <filename>/usr/share/backgrounds/ufurmix-rock-painting.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#6e3f27</pcolor>
+    <scolor>#6e3f27</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Moonfight Dance</name>
+    <filename>/usr/share/backgrounds/moonfight-dance_by_TaniDaReal.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#052443</pcolor>
+    <scolor>#5a6f84</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+</wallpapers>

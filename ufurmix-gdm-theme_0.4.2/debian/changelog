@@ -1,0 +1,35 @@
+ufurmix-gdm-theme (0.4.2) lucid; urgency=medium
+
+  * Attempted to fix defaults stuff
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 21 Jan 2011 23:17:25 +0300
+
+ufurmix-gdm-theme (0.4.1) lucid; urgency=medium
+
+  * Fixed dependency hell
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 20 Jan 2011 19:56:09 +0300
+
+ufurmix-gdm-theme (0.4) lucid; urgency=low
+
+  * Ported to Lucid with a number of tweaks
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 17 Jan 2011 17:09:21 +0300
+
+ufurmix-gdm-theme (0.3.2) karmic; urgency=low
+
+  * Added apps/64/computer.png icon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 8 Mar 2010 11:49:15 +0300
+
+ufurmix-gdm-theme (0.3.1) karmic; urgency=low
+
+  * Fixed dependencies bug
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 19 Feb 2010 16:17:14 +0300
+
+ufurmix-gdm-theme (0.3) karmic; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 18 Feb 2010 19:24:19 +0300

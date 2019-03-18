@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>WikiFur (en)</os:ShortName>
+<os:Description>WikiFur (en)</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAVNQTFRFOjqWPT2YPz+ZQECZQUGaQkKaQ0ObQ0SaRESaRESbRUWbRUWcRkacRkadR0edSEidSUmdSkqeS0ufTU2fTU2gTk6gUlOhU1OiVlakV1ekV1elV1ilWFikW1unX1+oYmOpY2OqZGWrZWWsZmasaGmsbm6vbm+vbm+wcHCwcnOxdHSzdnezeHm0eXq1enq1e3y1fX64f3+4gIC4gYK5g4S6hoe7iYm9iou+jIzAjI2/jo6/jo/BkZHDkZLDlZbDlZbEo6PJo6TLp6jMp6jNqqvPtrfVt7fVurrWu7zYwsPcxMbcxsfeyMjfzs/h0NLj1NXl1dbl3N3p4+Ts5uju6erw6uvw6uvx6+zx7O3y7e7y8PH08fL08vP08/T29PX19fb39vj49/j4+fr5+vv5+/z5+/z6/f77/f78/f/7/f/8/v/8/v/9/v/+///8///9///+////OCj49AAAANxJREFUGNNj4IMAHn5+HjCDAcoXNbNX4IQJ8LAyM6lHFQTLcUIEuNl1bfXEPAoKTBl5QQI8Am6xifEBqkbm+iqsPEABNoPorIy0vCApk4JcR0EeBj5Wm6wsoEiBk1pSQaQiUIDNMCY7PysjL5TbxNNFAiSgFZZfkJOZm8An42wtDNJikZqVl52e7ycZkhauBBZIycpKzyrQsSoo8BIHCnAqB+bm5ia7yMq7O4hzghzGrO3t72NpF5enwcANcToLlxiHYkRBniYrzHM83NzSrr7GPDxIvuUTEuED+x8AmpstP3S+jjQAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://en.wikifur.com/wiki/Special:Search</SearchForm>
+<os:Url type="text/html" method="GET" template="http://en.wikifur.com/w/index.php?title=Special:Search&amp;search={searchTerms}">
+</os:Url><os:Url type="application/x-suggestions+json" method="GET" template="http://en.wikifur.com/w/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0">
+</os:Url>
+</SearchPlugin>

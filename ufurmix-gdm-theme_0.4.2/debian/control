@@ -1,0 +1,13 @@
+Source: ufurmix-gdm-theme
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+
+Package: ufurmix-gdm-theme
+Architecture: all
+Depends: ${misc:Depends}, gdm
+Description: Ubuntu Furry Remix GDM artwork
+ This package contains Ubuntu Furry Remix decorations for login screen and greeter.

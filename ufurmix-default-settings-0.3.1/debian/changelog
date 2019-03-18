@@ -1,0 +1,23 @@
+ufurmix-default-settings (0.3.1) lucid; urgency=low
+
+  * Made GIMP the primary image editor in Eye of GNOME
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 26 Jan 2011 00:19:20 +0300
+
+ufurmix-default-settings (0.3) lucid; urgency=low
+
+  * Attempted to fix vanilla GNOME defaults exposure
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 21 Jan 2011 22:43:06 +0300
+
+ufurmix-default-settings (0.2) lucid; urgency=low
+
+  * Increased defaults priority
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 20 Jan 2011 00:55:43 +0300
+
+ufurmix-default-settings (0.1) lucid; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 20 Jan 2011 00:39:19 +0300

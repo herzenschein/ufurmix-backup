@@ -1,0 +1,25 @@
+Source: ubufox
+Section: web
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5), cdbs, mozilla-devscripts (>= 0.22~)
+Standards-Version: 3.8.4
+
+Package: ubufox
+Architecture: all
+Depends: apturl (>= 0.1.2ubuntu1) | apturl-kde, ${misc:Depends}, ufurmix-startpage-artwork
+Recommends: ${xpi:Recommends}
+Provides: ${xpi:Provides}
+Enhances: ${xpi:Enhances}
+Description: Ubuntu Furry Remix configuration defaults for Firefox
+ This extension package for Firefox used to provide ubuntu specific 
+ configuration defaults as well as apt support for firefox plugins/extensions.
+ .
+ But Canonical didn't maintain it well enough and Shnatsel had to
+ take over the package and fix, fix, fix it for two moths. Now it works in 
+ offline and even provides everything that ufurmix-firefox-tweaks package
+ used to provide. The new about:home braindamage went straight to hell, 
+ and any other unmaintainable mess in Furry Remix will go there too.
+ .
+ You can uninstall this package if you prefer to use a pristine firefox
+ install.

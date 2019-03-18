@@ -1,0 +1,12 @@
+Source: ufurmix-screensaver
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: ufurmix-screensaver
+Architecture: all
+Depends: ${misc:Depends}, gnome-screensaver
+Description: Ubuntu Furry Remix screensaver
+ Ubuntu Furry Remix screensaver: floating Furry Remix logo paws.

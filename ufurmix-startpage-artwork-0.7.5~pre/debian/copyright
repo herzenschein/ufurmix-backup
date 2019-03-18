@@ -1,0 +1,47 @@
+Name: ufurmix-startpage-artwork
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+Copyright: 2010, Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Based on Zorin OS startpage, which is in turn based on work of Infinise Design 
+(http://infinisedesign.net/) and Folter-X (http://folter-x.deviantart.com)
+
+License: GPL-3+
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU GPL3 licenses
+can be found at `/usr/share/common-licenses/GPL-3'.
+
+
+Files: debian/*
+Copyright: Copyright © 2010, Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+License: GPL-3+
+ The Debian packaging is licensed under the GPL, version 3 or later.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+On Debian systems, the complete text of the GNU GPL3 licenses
+can be found at `/usr/share/common-licenses/GPL-3'.
+

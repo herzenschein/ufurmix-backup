@@ -1,0 +1,14 @@
+Source: ufurmix-default-settings
+Section: metapackages
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.0
+
+Package: ufurmix-default-settings
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: ufurmix-components-stable
+Description: Ubuntu Furry Remix default setting
+ This package installs Furry Remix default settings.
+ They affect only newly-created users.

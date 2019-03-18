@@ -1,0 +1,44 @@
+ufurmix-startpage-artwork (0.7.5~pre) lucid; urgency=low
+
+  * Made WikiFur logo look more like itself
+  * Added an SVG source of paws and twhirls from the search bar
+  * Made text in the input field bolder and darker
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 03 Oct 2010 18:52:03 +0400
+
+ufurmix-startpage-artwork (0.7.4~pre) lucid; urgency=low
+
+  * Made the bottom bar hide automatically
+  * Some links on the bottom bar were inaccessible on small screens, fixed that
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 02 Oct 2010 21:50:36 +0400
+
+ufurmix-startpage-artwork (0.7.3~pre) lucid; urgency=low
+
+  * Made page title static
+  * Added Ubuntu documentation search
+  * Removed "help translate" link
+  * Gave WikiFur logo less pretentious look
+  * Revamped the bottom bar
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 02 Oct 2010 14:54:09 +0400
+
+ufurmix-startpage-artwork (0.7~pre) lucid; urgency=medium
+
+  * Packaged a pre-release version of the new startpage
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 02 Oct 2010 10:24:13 +0400
+
+ufurmix-startpage-artwork (0.5.1) lucid; urgency=medium
+
+  * debian/control: fixed a packaging conflict with ufurmix-firefox-tweaks
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 21 Sep 2010 18:32:49 +0400
+
+ufurmix-startpage-artwork (0.5) lucid; urgency=low
+
+  * Created a separate package with startpage artwork
+  * Updated German translation, thanks to Achim Behrens
+  * Added Dutch translation, thanks to Bert de Bruijn
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 13 Sep 2010 16:41:18 +0400

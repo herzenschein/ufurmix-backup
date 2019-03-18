@@ -1,0 +1,15 @@
+Source: ufurmix-nostalgia-icons
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+
+Package: ufurmix-nostalgia-icons
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-icon-theme,
+         hicolor-icon-theme
+Description: Ubuntu Furry Remix Nostalgia icon theme
+ Revamped icons from Furry Remix Karmic (9.10)

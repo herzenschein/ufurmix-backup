@@ -1,0 +1,15 @@
+Source: ufurmix-gimp-splash
+Section: graphics
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+XS-Python-Version: all
+Standards-Version: 3.8.0
+
+Package: ufurmix-gimp-splash
+Architecture: all
+Section: graphics
+Depends: gimp (>= 2.0), gimp-data
+Replaces: gimp-data
+Description: A splash screen for GIMP featuring Wilber in anthro style
+ A splash screen for GIMP by ihara featuring Wilber in anthro style

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/interface/icon_theme FurryLoginIcons
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/background/picture_filename /usr/share/backgrounds/ufurmix-gdm-bg.jpg
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/background/picture_options zoom
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/interface/gtk_theme Ambiance

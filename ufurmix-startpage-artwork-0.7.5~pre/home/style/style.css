@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	font: 13px Helvetica, Arial, Ubuntu, UbuntuBeta, sans-serif;
+}
+
+#container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 500px;
+	height: 150px;
+	margin: -70px 0 0 -250px;
+}
+
+
+/*	ENGINE INDEX
+	----------------------------------------------------- */
+	
+#engines {
+	width: 700px;
+	height: 80px;
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	margin: 0 0 110px -350px;
+}
+
+#engines a {
+	display: block;
+	width: 225px;
+	height: 80px;
+	cursor: pointer;
+	opacity: 0.0;
+	position: absolute;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#engines a img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+/* 	SEARCH BOX
+	----------------------------------------------------- */
+
+#box {
+	background: rgba(255,255,255,0.5) url(paws-and-whirls.png) center center no-repeat;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	padding: 30px 40px;
+	position: relative;
+  box-shadow: 5px 5px 10px black;
+  -moz-box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 5px 5px 10px black;
+
+}
+
+#input {
+	background: rgba(255,255,255,0.5);
+	padding: 1px;
+}
+
+#input input {
+	outline: 0;
+	border: 1px solid #dae2e9;
+	background: white url(field.png) left top repeat-x;
+	-webkit-appearance: textfield;
+	font: 19px  Ubuntu, UbuntuBeta, 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: 600;
+	color: #1f2326;
+	width: 420px;
+	padding: 6px 6px 6px 35px;
+}
+
+#input input:focus {
+	border-color: #cdd6de;
+	-webkit-box-shadow: 0 0 30px white;
+	-moz-box-shadow: 0 0 30px white;
+}
+
+#lang {
+	position: absolute;
+	right: 49px;
+	top: 39px;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 3px 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	color: #b7c2cf;
+	cursor: pointer;
+}
+
+#lang:hover {
+	background: #b7c2cf;
+	color: white;
+}
+
+#lang:active {
+	background: #939fad;
+}
+
+#method {
+	text-align: center;
+	margin-top: 5px;
+}
+
+#method a {
+	padding: 5px 20px;
+	margin: 0 3px;
+	cursor: pointer;
+	color: black;
+	background: rgba(185,185,185,0.4);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+  box-shadow: 2px 2px 4px black;
+  -moz-box-shadow: 3px 3px 5px black;
+  -webkit-box-shadow: 3px 3px 5px black;
+}
+
+#method a.active,
+#method a:hover {
+	vertical-align:middle;
+	background: rgba(255,255,255,0.5);
+	color: black;
+	padding-bottom: 6px;
+/*	padding: 5px 20px 8px 20px;   */
+  box-shadow: 5px 5px 10px black;
+  -moz-box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 5px 5px 10px black;
+}
+
+#method a:active {
+	background: rgba(255,255,255,0.7);
+}
+
+
+
+/* 	INFO BOX
+	----------------------------------------------------- */
+
+#info {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+#toggleInfo {
+	position: absolute;
+	right: -3;
+	bottom: -2;
+	background: url(info.png);
+	width: 22px;
+	height: 20px;
+	color: rgba(0,0,0,0);
+	cursor: pointer;
+}
+
+#toggleInfo:hover {
+	opacity: 0.5;
+}
+
+#toggleInfo:active {
+	opacity: 0.7;
+}
+
+#infoBox {
+	display: none;
+	position: absolute;
+	right: 13px;
+	bottom: 13px;
+	background: #ecf2f8 url(infobox.png) left top repeat-x;
+	-webkit-border-radius: 8px;
+	padding: 10px 20px;
+	width: 300px;
+	font-size: 11px;
+	line-height: 16px;
+	color: #363d42;
+	-webkit-box-shadow: 0 0 20px white;
+}
+
+#infoBox h2 {
+	font: 19px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: 300;
+	margin: 3px 0 10px 0;
+	color: #939fad;
+}
+
+#infoBox strong {
+	font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica";
+}
+
+#infoBox p {
+	margin: 5px 0;
+}
+
+#infoBox .source {
+	color: #939fad;
+	font-size: 10px;
+	text-align: justify;
+}
+
+#infoBox .source a {
+	color: #74889e;
+	border-bottom: 1px solid #d6e0ea;
+}
+
+#infoBox .source a:hover {
+	color: #363d42;
+	border-bottom: 1px solid #939fad;
+}
+
+#infoBox hr {
+	margin: 10px -20px;
+	border: 0;
+	border-top: solid 1px #d6e0ea;
+	border-bottom: 1px solid white;
+}
+
+#infoBox #corner {
+	position: absolute;
+	background: url(info_corner.png);
+	height: 24px;
+	width: 24px;
+	right: -13px;
+	bottom: -13px;
+}
+
+
+
+/* 	SEARCH SUGGESTIONS
+	----------------------------------------------------- */
+
+#sugs {
+	display: none;
+	position: absolute;
+	background: rgba(255,255,255,0.8);
+	border: 1px solid #dae2e9;
+	border-top: 0;
+	left: 41px;
+	top: 68px;
+	right: 41px;
+	list-style: none;
+	padding: 3px 0;
+	font-size: 11px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+}
+
+#sugs li a {
+	display: block;
+	padding: 3px 8px;
+	color: #74889e;
+}
+
+#sugs li a {
+	display: block;
+	padding: 3px 8px;
+	color: #74889e;
+}
+
+#sugs li.active a {
+	background: #b7c2cf;
+	color: white;
+}
+
+#sugs li a:active {
+	background: #939fad;
+}
+
+/*   Logo   */
+
+#Logo {
+	position: absolute;
+	left: 20;
+	top: 20;
+	background: url(paw.png)no-repeat;
+	height: 86px;
+	width: 77px;
+
+}

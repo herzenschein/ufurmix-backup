@@ -1,0 +1,13 @@
+Source: ufurmix-software-pack
+Section: metapackages
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.3
+
+Package: ufurmix-software-pack
+Architecture: all
+Recommends: gimp, blender, inkscape, mypaint, soundconverter, compizconfig-settings-manager, p7zip-full, wacom-dkms, xserver-xorg-input-wizardpen, gimp-openraster, gimp-paint-studio
+Suggests: ufurmix-components-stable
+Description: Ubuntu Furry Remix software pack
+ This package installs software included in Ubuntu Furry Remix.

@@ -1,0 +1,8 @@
+/desktop/gnome/interface/icon_theme ufurmix-mono-dark
+/desktop/gnome/sound/theme_name ufurmix
+/desktop/gnome/background/picture_filename /usr/share/backgrounds/ufurmix-tigers.jpg
+/desktop/gnome/background/picture_options zoom
+/desktop/gnome/interface/gtk_theme Ambiance
+/apps/metacity/general/button_layout close,minimize,maximize:
+/apps/metacity/general/theme Ambiance
+/apps/eog/ui/external_editor gimp.desktop
