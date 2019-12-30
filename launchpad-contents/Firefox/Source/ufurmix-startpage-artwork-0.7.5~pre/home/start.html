@@ -1,0 +1,105 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<title id="title">Start page</title>
+		
+		<link rel="stylesheet" href="style/style.css" type="text/css">
+		<link rel="icon" href="favicon.png">
+		
+		<script src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+		<script src="scripts/tools.js" type="text/javascript"></script>
+		<script src="scripts/scripts.js" type="text/javascript"></script>
+		
+		<script src="engines/base.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//menu
+	$("#button").mouseenter(function(){
+		$("#menuu").animate({marginBottom: "50"});
+	});
+	$("#menu").mouseleave(function(){
+		$("#menuu").animate({marginBottom: "0"});
+	});
+});
+</script>
+<style type="text/css">
+body {
+	background: url("images/Aurora.jpg") 50% 50%;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#button {
+	width: 50px;
+	height: 36px;
+	margin-left: 70px;
+	margin-bottom: -12px;
+	background-image: url(images/button.png);
+}
+
+#menu {
+	background-color: #333333;
+	padding: 15px 20px 16px;
+	heightt:12px;
+	margin-bottom: -74px;
+	-moz-box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #000000;
+}
+
+#menu a {
+	font-family: Ubuntu, UbuntuBeta, Verdana, sans-serif;
+	font-size: 12px;
+	color: #bbbbbb;
+	text-decoration: none;
+	padding: 0px 14px 0px 14px;
+}
+
+#menu a:hover {
+	color: #eeeeee;
+}
+</style>
+</head>
+<body>
+<div id="Logo"></div>
+<div id="engines"></div>
+
+		<div id="container">
+			
+			<form id="form" onsubmit="return doSearch()"><div id="box">
+				<div id="input"><input id="i" type="text" placeholder="…" autosave="com.infinise.go" results="5" /></div>
+				<a onclick="nextLanguage()" id="lang"></a>
+				<ul id="sugs"></ul>
+			</div></form>
+			
+			<p id="method"></p>
+			
+		</div>
+		
+		<div id="info">
+			<div id="infoBox">
+				<h2>Ubuntu Furry Remix<strong> Start</strong></h2>
+				<p>Move your cursor over the logo or use the shortcut <strong>Ctrl+1</strong> to switch between search engines.</p>
+				<p>Use <strong>Ctrl+2</strong> to change the search option.</p>
+				<p>Roll over the button at the bottom bar to reveal links.</p>
+				<hr/>
+				<p class="source">Powered by <a href="http://go.infinise.com">Go!</a> from <a href="http://infinisedesign.net">Infinise Design</a> and <a href="http://www.folter.es/startpage/index.html">Startpage</a> by <a href="http://folter-x.deviantart.com/">Folter-x</a></p><p class="source">Based on Firefox startpage from <a href="http://zorin-os.webs.com">Zorin OS</a></p>
+				<div id="corner"></div>
+			</div>
+			<a id="toggleInfo">i</a>
+		</div>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td height="100px" align="left" valign="bottom">
+    <div id="menuu">
+      <div id="menu">
+	    <a href="http://launchpad.net/ufurmix" class="menuTitle"><strong>Ubuntu Furry Remix</strong></a>
+	    <a href="http://groups.google.com/group/ufurmix">Browse mailing list</a>  
+	    <a href="https://answers.launchpad.net/ufurmix/+addquestion">Ask a question</a>
+	    <a href="https://bugs.launchpad.net/ufurmix/+filebug">Report a bug</a>
+      </div>
+	<div id="button"></div>
+	</div>
+  </td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Ubuntu Furry Remix</title>
+<body>
+<div id="main" width="100%">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.js"></script>
+<script type="text/javascript" src="jq-transform-0.6.1.min.js"></script>
+
+
+<div id="stuff-tab-container" style="position:absolute; top: -10px; left: 0px; min-width:230px; display:inline-block">
+
+
+</div> <!-- stuff-tab-container -->
+
+
+<div id="lucid-tab-container" style="position:absolute; top: -10px; right: 0px; min-width:230px; display:inline-block">
+<div id="lucid-tab" style="z-index:5; border:1px solid #121212; background-color:white; width:560px; display:none;"> <!-- scaleX (width-30)/560 -->
+
+<img src="lucid-tab-bg.png" width="560" height="420">
+
+</div> <!-- lucid-tab-container -->
+</div> <!-- lucid-tab -->
+
+
+<div id="karmic-tab-container" style="margin-left:auto; margin-right:auto; width: 560px; position:relative; top: -10px;">
+<div id="karmic-tab" style="z-index:10; border:1px solid #121212; background-color:#121212; width:560px; display:none">
+<img src="logo2.png" width="560" height="430">
+
+<div id="screenshots">
+<object id="ci_85497_o" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="560" height="375">  <!-- cooliris -->
+<param name="movie" value="http://apps.cooliris.com/embed/cooliris.swf"/>
+<param name="allowFullScreen" value="true"/>
+<param name="allowScriptAccess" value="always"/>
+<param name="bgColor" value="#121212" />
+<param name="flashvars" value="feed=api%3A%2F%2Fpicasaweb.google.com%2F%3Fuser%3DShnatsel%26album%3DUbuntuFurryRemix910Screenshots%3Ffeat%3Ddirectlink&numrows=2" />
+<param name="wmode" value="opaque" />
+<embed id="ci_85497_e" type="application/x-shockwave-flash" src="http://apps.cooliris.com/embed/cooliris.swf" width="560" height="375" allowFullScreen="true" allowScriptAccess="always" bgColor="#121212" flashvars="feed=api%3A%2F%2Fpicasaweb.google.com%2F%3Fuser%3DShnatsel%26album%3DUbuntuFurryRemix910Screenshots%3Ffeat%3Ddirectlink&numrows=2" wmode="opaque"></embed>
+<object>              <!-- alternative content -->
+
+
+
+</object>
+
+</object> <!-- cooliris -->
+
+</div> <!-- screenshots -->
+
+</div> <!-- karmic-tab -->
+
+</div> <!-- karmic-tab-container -->
+
+
+
+
+</div> <!-- main -->
+
+<script type="text/javascript"> /* Fade in tabs one by one when the page is loaded */
+$(document).ready(function(){
+  $("#karmic-tab").fadeIn(800);
+  $("#lucid-tab").fadeTo(800,0.3);
+  $("#stuff-tab").fadeTo(800,0.3);
+  $("#lucid-tab").transform({
+    skewY: -30,
+    scaleX: 0.3
+  });
+});
+</script>
+
+</body>

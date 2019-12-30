@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 17 Feb 2010 15:09:20 +0300
+Source: ufurmix-sounds
+Binary: ufurmix-sounds
+Architecture: source all
+Version: 0.3.3
+Distribution: karmic
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-sounds - Ubuntu Furry Remix sound theme
+Changes: 
+ ufurmix-sounds (0.3.3) karmic; urgency=low
+ .
+   * GDM greeting sound was too loud, fixed that
+Checksums-Sha1: 
+ 98eb956ae73a3c5970e33e56d871ab6be5b72458 747 ufurmix-sounds_0.3.3.dsc
+ 34c2ec628735ee2c36e6588f838b95aef2caf234 2706690 ufurmix-sounds_0.3.3.tar.gz
+ d5d7b7bb95a1582042aa89471b4c6ec352e836c3 546842 ufurmix-sounds_0.3.3_all.deb
+Checksums-Sha256: 
+ 9c9d402bd4e013e08691f6af594eface6b74d1c2343984052d74840632ebfa24 747 ufurmix-sounds_0.3.3.dsc
+ a8fbec4ef4a7ad7aa456bbc8b3d74b84cea873061db1f156727b36c072fbef74 2706690 ufurmix-sounds_0.3.3.tar.gz
+ 5ea85812f8785f445ad8d65c86de131590db7085674af1efe9fa323d7faa6058 546842 ufurmix-sounds_0.3.3_all.deb
+Files: 
+ de6eeb060426db03d22a40b944ec35da 747 gnome optional ufurmix-sounds_0.3.3.dsc
+ fad92bd0cc1a57dd7f52145ba282ffd3 2706690 gnome optional ufurmix-sounds_0.3.3.tar.gz
+ c3e183a262f6fa791aee5cea78dcafde 546842 gnome optional ufurmix-sounds_0.3.3_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkuozOwACgkQ4S9k9n2hVyMu5QCgg+vt/D8qWAGUeldLrVYE9xU6
+paoAnRosMDa2JSVz3SmxdGguqFiKXKSx
+=29xw
+-----END PGP SIGNATURE-----

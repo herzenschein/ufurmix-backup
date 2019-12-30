@@ -1,0 +1,63 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: установка CFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CPPFLAGS в значение по умолчанию: 
+dpkg-buildpackage: установка LDFLAGS в значение по умолчанию: -Wl,-Bsymbolic-functions
+dpkg-buildpackage: установка FFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CXXFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: пакет исходных текстов ufurmix-sounds
+dpkg-buildpackage: версия исходных текстов 0.3.3~lucid1
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+dpkg-buildpackage: архитектура хоста amd64
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+rm -f build-stamp configure-stamp
+dh_clean 
+ dpkg-source -b ufurmix-sounds-0.3.3~lucid1
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-sounds в ufurmix-sounds_0.3.3~lucid1.tar.gz
+dpkg-source: инфо: сборка ufurmix-sounds в ufurmix-sounds_0.3.3~lucid1.dsc
+ debian/rules build
+dh_testdir
+touch build-stamp
+ fakeroot debian/rules binary
+dh_testdir
+dh_testroot
+dh_clean -k 
+dh_installdirs
+cp -r /home/serioga/Buffer/build_waterall/ufurmix-sounds-0.3.3~lucid1/ufurmix /home/serioga/Buffer/build_waterall/ufurmix-sounds-0.3.3~lucid1/debian/ufurmix-sounds/usr/share/sounds
+dh_testdir
+dh_testroot
+dh_installchangelogs 
+dh_installdocs
+dh_link
+dh_compress
+dh_fixperms
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dpkg-deb: сборка пакета ufurmix-sounds в файл ../ufurmix-sounds_0.3.3~lucid1_all.deb.
+ dpkg-genchanges  >../ufurmix-sounds_0.3.3~lucid1_amd64.changes
+dpkg-genchanges: предупреждение: текущая версия (0.3.3~lucid1) меньше предыдущей (0.3.3)
+dpkg-genchanges: в закачку включён весь исходный код
+dpkg-buildpackage: закачка всего; родной пакет Debian (включены все пакеты исходного кода)
+Now running lintian...
+W: ufurmix-sounds source: missing-debian-source-format
+W: ufurmix-sounds source: binary-arch-rules-but-pkg-is-arch-indep
+W: ufurmix-sounds source: out-of-date-standards-version 3.8.3 (current is 3.8.4)
+W: ufurmix-sounds: latest-debian-changelog-entry-without-new-date
+W: ufurmix-sounds: latest-debian-changelog-entry-without-new-version
+W: ufurmix-sounds: gconftool-used-in-maintainer-script postrm:3
+W: ufurmix-sounds: maintainer-script-ignores-errors postrm
+W: ufurmix-sounds: gconftool-used-in-maintainer-script postinst:3
+W: ufurmix-sounds: maintainer-script-ignores-errors postinst
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-sounds_0.3.3~lucid1.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+
+ signfile ufurmix-sounds_0.3.3~lucid1_amd64.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+
+Successfully signed dsc and changes files

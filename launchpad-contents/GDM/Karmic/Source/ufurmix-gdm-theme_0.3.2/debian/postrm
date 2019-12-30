@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo -u gdm gconftool-2 --set --type string --set /desktop/gnome/interface/gtk_theme HumanLogin
+sudo -u gdm gconftool-2 --set --type string --set /desktop/gnome/interface/icon_theme HumanLoginIcons

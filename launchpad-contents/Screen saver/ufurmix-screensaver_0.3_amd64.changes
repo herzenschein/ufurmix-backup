@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 24 Apr 2010 18:54:20 +0400
+Source: ufurmix-screensaver
+Binary: ufurmix-screensaver
+Architecture: source all
+Version: 0.3
+Distribution: karmic
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-screensaver - Ubuntu Furry Remix screensaver
+Changes: 
+ ufurmix-screensaver (0.3) karmic; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ 6004846e266216545c47c48c062c0407430f66b6 758 ufurmix-screensaver_0.3.dsc
+ 8a576e9b3f851a2d046326649a08892a815e4720 22954 ufurmix-screensaver_0.3.tar.gz
+ 70883bdffec19d9f8440a8c409ce3da9f54476c1 23770 ufurmix-screensaver_0.3_all.deb
+Checksums-Sha256: 
+ 1b4e1dfc744c35d7ce4a1bb4e2c6e37189d887569c416cfbf43bef6146d4a342 758 ufurmix-screensaver_0.3.dsc
+ c198ec7ed1431ff3b56171a77745c658fd46e88462475f449e8771ba8846c299 22954 ufurmix-screensaver_0.3.tar.gz
+ f0de32815206e8fc97545a710f25599578bc11659326ec126858d61cf5e84b30 23770 ufurmix-screensaver_0.3_all.deb
+Files: 
+ 1ff16c88ec0c17231107cb84b84763b0 758 gnome optional ufurmix-screensaver_0.3.dsc
+ c6d51c92a6fa688fb1766fdabcfffcd2 22954 gnome optional ufurmix-screensaver_0.3.tar.gz
+ 7595d7e1e54a3e1711c7ec56c23a3b7c 23770 gnome optional ufurmix-screensaver_0.3_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvTROMACgkQSRcQqSe0+prJHACfcXRB+8fZGcvZC1pnq2bU6w6Q
+shUAn0RlfhKd5WZTwqn9dJYFegVdukRn
+=TwZ/
+-----END PGP SIGNATURE-----

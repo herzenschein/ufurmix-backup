@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 03 Oct 2010 18:52:03 +0400
+Source: ufurmix-startpage-artwork
+Binary: ufurmix-startpage-artwork
+Architecture: source
+Version: 0.7.5~pre
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-startpage-artwork - Ubuntu Furry Remix startpage
+Changes: 
+ ufurmix-startpage-artwork (0.7.5~pre) lucid; urgency=low
+ .
+   * Made WikiFur logo look more like itself
+   * Added an SVG source of paws and twhirls from the search bar
+   * Made text in the input field bolder and darker
+Checksums-Sha1: 
+ 5f4efdd6323e8bb04c6fdbc0f5ee9c8137ae49e7 1111 ufurmix-startpage-artwork_0.7.5~pre.dsc
+ f7554d488b470b6eaebed3c63e1b98f2ca3eafdc 1166300 ufurmix-startpage-artwork_0.7.5~pre.tar.gz
+Checksums-Sha256: 
+ 5bf0aa0a4dce288215f4426a765d29a32695ce44e2a18284b42c5615db25687b 1111 ufurmix-startpage-artwork_0.7.5~pre.dsc
+ 67e8894baac3c1cbd1b0692cc6955cd36933119ea4956f1e9aa7fb268ee8ac45 1166300 ufurmix-startpage-artwork_0.7.5~pre.tar.gz
+Files: 
+ 97aa38d319a471437de4b9ab076cfbe1 1111 web optional ufurmix-startpage-artwork_0.7.5~pre.dsc
+ 98b18108e52ea2861a4c4791af992404 1166300 web optional ufurmix-startpage-artwork_0.7.5~pre.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJMqJtxAAoJEDh2a1vjsqhngwUIANc4EZrQf81Xx2XxvpGaay2c
+f3C+AEBqr3fUREgNfnkETK1MHm+NOEesddRpViX3Z9OwR8Xo6ECwp4Y+bkW0jUSI
+vH2t8iqZnoIXrKh79l6p3SaQEpD5pAhVs14/TPkCIQBG5qkcawkLpBTVuqF5PPM6
+Lrtp97Nm+2zXvBcoFDcui7y1pGcgTeBbxX8cbtvRDw7+Slh6KGLZQTYtvM7d5bvO
+gHxOFkDsWlTcfEWWiLkd9Fuw3Crwc7E2zKTgACVMOtqFpvVqSqhNeM85nHX3MtQp
+cSQrLl09yjGpi+5seOep55lJY3RNeqZT+POs+qhfomTimlGAXd9mE8A4R4lcdNY=
+=+vPi
+-----END PGP SIGNATURE-----

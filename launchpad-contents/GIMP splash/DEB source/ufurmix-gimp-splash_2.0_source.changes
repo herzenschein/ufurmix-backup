@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 29 Dec 2010 00:40:40 +0300
+Source: ufurmix-gimp-splash
+Binary: ufurmix-gimp-splash
+Architecture: source
+Version: 2.0
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-gimp-splash - A splash screen for GIMP featuring Wilber in anthro style
+Changes: 
+ ufurmix-gimp-splash (2.0) lucid; urgency=low
+ .
+   * Used a new image by ihara
+Checksums-Sha1: 
+ f0188dd9dec5d104335040395943599212e1bd3d 1074 ufurmix-gimp-splash_2.0.dsc
+ ad6d50d06658311a2b1386df40c272d9b75fd0f7 145869 ufurmix-gimp-splash_2.0.tar.gz
+Checksums-Sha256: 
+ c09aaf304f0f1a04b0fbff491e413c13636e3c7f3c72293576b371a9f094c58c 1074 ufurmix-gimp-splash_2.0.dsc
+ bd105321945b2949cc5b0659b7b6369699dcdec58908f1506c7cc91058c0ea1b 145869 ufurmix-gimp-splash_2.0.tar.gz
+Files: 
+ 6e8612712823b65e246768f661291ce1 1074 graphics optional ufurmix-gimp-splash_2.0.dsc
+ b70ef55028bf1891410fceb1bba0e082 145869 graphics optional ufurmix-gimp-splash_2.0.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJNGlsqAAoJEDX+qKYr3ymzB7UIALhMBCad19BlyOzWWp4XjF3F
+LVzHdaiRyyjNxmpBZrD9jX96itDCRVLJ7HR5DvdEARF2kQ3l3YkKl4l94SstNxZV
+SjIfRks/KtZMubQsiggXcHuiTW8H1dhX5g9cV3cgt4IDct5mD8DwEnjANDXeOKlr
+de35pQiMZPPbVstJE9zHdRWVO4sBea7JYS0ZZVPVDHmDWe1Q7cBxVWLXWOD0fqjl
+CCzYw3d8WcM8dyPU0IBFklrhi3oYHb8fKr8zalqp3aDLYl7lXIz2gklb3jK6CYeJ
+1vCzQyKyX7/mxSSN+Gb/VL4corr2pgAmkcZ+cQCYQfmDOcOpkH1UWZHfSDGyckY=
+=Y+BP
+-----END PGP SIGNATURE-----

@@ -1,0 +1,31 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S
+dpkg-buildpackage: установка CFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CPPFLAGS в значение по умолчанию: 
+dpkg-buildpackage: установка LDFLAGS в значение по умолчанию: -Wl,-Bsymbolic-functions
+dpkg-buildpackage: установка FFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CXXFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: пакет исходных текстов ufurmix-startpage-artwork
+dpkg-buildpackage: версия исходных текстов 0.5
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-startpage-atrwork-0.5
+dpkg-source: предупреждение: каталог исходников 'ufurmix-startpage-atrwork-0.5' не в виде <пакет исходников>-<оригинальная версия> 'ufurmix-startpage-artwork-0.5'
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-startpage-artwork в ufurmix-startpage-artwork_0.5.tar.gz
+dpkg-source: инфо: сборка ufurmix-startpage-artwork в ufurmix-startpage-artwork_0.5.dsc
+ dpkg-genchanges -S >../ufurmix-startpage-artwork_0.5_source.changes
+dpkg-genchanges: в закачку включён весь исходный код
+dpkg-buildpackage: закачка только пакетов исходного кода: родной пакет Debian
+Now running lintian...
+W: ufurmix-startpage-artwork source: missing-debian-source-format
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-startpage-artwork_0.5.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+ signfile ufurmix-startpage-artwork_0.5_source.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+Successfully signed dsc and changes files

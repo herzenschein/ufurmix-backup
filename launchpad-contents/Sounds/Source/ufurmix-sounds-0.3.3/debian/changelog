@@ -1,0 +1,32 @@
+ufurmix-sounds (0.3.3) karmic; urgency=low
+
+  * GDM greeting sound was too loud, fixed that
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Feb 2010 15:09:20 +0300
+
+ufurmix-sounds (0.3.2) karmic; urgency=low
+
+  * GDM greeting sound was not changed by this package, fixed that (LP: #492836)
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Feb 2010 15:09:20 +0300
+
+ufurmix-sounds (0.3.1) karmic; urgency=low
+
+  * Package rebuilt with debuild, source code package is now available
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 8 Nov 2009 20:08:47 +0300
+
+ufurmix-sounds (0.3) karmic; urgency=low
+
+  * bell.ogg replaced with Freedesktop's bell.ogg
+  * Removed screen-capture.ogg
+  * Added complete-media-burn.ogg from Freedesktop theme
+  * Corrected a few mistakes in copyright file
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 18 Oct 2009 14:50:39 +0300
+
+ufurmix-sounds (0.2) karmic; urgency=low
+
+  * initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 10 Oct 2009 23:42:14 +0300

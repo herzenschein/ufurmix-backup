@@ -1,0 +1,93 @@
+Name=Foxes 1
+Description=15 emotes; artwork by Sleath, theme by Shnatsel
+Icon=smile.gif
+Author=Sleath
+
+[default]
+smile.gif           :)      :-)     =)
+grin.gif            :-D     :-d     :D     :d     =D
+sad.gif             :-(     :(      =(
+wink.gif            ;-)     ;)
+tongue.gif          :P      :-P     :-p     :p
+wtf.gif             =-O     =-o
+crying.gif          :'(
+
+[AIM]
+smile.gif           :-)     :)
+grin.gif            :-D     :D
+sad.gif             :-(     :(
+wink.gif            ;-)     ;)
+tongue.gif          :-P     :P      :-p    :p
+wtf.gif             =-O
+crying.gif          :'(
+
+[MSN]
+smile.gif           :)      :-)
+wink.gif            ;-)     ;)
+grin.gif            :D      :d :-D :-d
+sad.gif             :(      :-(
+tongue.gif          :P      :p :-P :-p
+wtf.gif             :-O     :-o :O :o
+crying.gif          :'(
+blank.gif           :|      :-|
+outraged.gif        :@      :-@
+
+[QQ]
+smile.gif           /:)      /wx       /small_smile
+grin.gif            /:D      /cy       /toothy_smile
+sad.gif             /:(      /ng       /sad
+crying.gif          /:<      /ll       /cry
+wtf.gif             /:O      /jy       /surprised
+aww.gif             /;-D     /ka       /cute
+shakefist.gif       /shake   /fad
+outraged.gif        /;!      /shuai    /freaked_out
+dance.gif           /v       /shl      /victory
+huggle.gif          /hug     /yb       /hug
+
+[ICQ]
+smile.gif           :-)     :)
+blank.gif           :-$
+sad.gif             :-(     :(
+wtf.gif             =-O
+wink.gif            ;-)     ;)
+grin.gif            :-D     :D
+crying.gif          :'(     :'-(
+tongue.gif          :-P     :P      :-p     :p
+xd.gif              *LOL*   *ROFL*
+dance.gif           *YAHOO*
+
+[Yahoo]
+smile.gif           :)      :-)
+grin.gif            :D      :-D     :d      :-d
+sad.gif             :(      :-(
+wink.gif            ;)      ;-)
+tongue.gif          :-P     :P      :-p     :p
+wtf.gif             :-O     :O      :-o     :o
+crying.gif          :((
+blank.gif           :|      :-|
+xd.gif              :))     :-))
+outraged.gif        X-(     x-(     X(      x(
+dance.gif           \\:D/   \\:d/
+huggle.gif          >:D<    >:d<
+
+[MySpaceIM]
+smile.gif	    :)      :-)
+grin.gif	    :D      :-D
+sad.gif		    :[
+wink.gif	    ;-)     ;)
+tongue.gif  	    :P      :p
+wtf.gif  	    :O
+blank.gif  	    :|
+xd.gif   	    :))
+
+[XMPP]
+smile.gif           :)      :-)      =)
+grin.gif            :D      :-D      =D
+sad.gif             :(
+wink.gif            ;)    ;-)    ;^)
+tongue.gif          :P    :-P
+wtf.gif             :-o
+crying.gif          :'(
+blank.gif           :-|
+outraged.gif        X-(
+victory.png         \\m/

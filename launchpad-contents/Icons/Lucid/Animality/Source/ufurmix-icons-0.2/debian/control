@@ -1,0 +1,18 @@
+Source: ufurmix-icons
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+
+Package: ufurmix-icons
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-icon-theme,
+         hicolor-icon-theme,
+         humanity-icon-theme
+Description: Ubuntu Furry Remix icon theme
+ Ubuntu Furry Remix icons, based on Humanity, nice and well polished icon 
+ theme for the GNOME desktop.
+

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mv -n /usr/share/gimp/2.0/images/gimp-splash.png /usr/share/gimp/2.0/images/gimp-splash.png.old

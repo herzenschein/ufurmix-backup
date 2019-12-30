@@ -1,0 +1,20 @@
+# Russian translation for ufurmix-wallpapers
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the ufurmix-wallpapers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ufurmix-wallpapers\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-07 12:58+0300\n"
+"PO-Revision-Date: 2009-11-07 12:58+0300\n"
+"Last-Translator: Shnatsel <shnatsel@gmail.com>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../ufurmix-wallpapers.xml.in.h:1
+msgid "Tigers"
+msgstr "Тигры"

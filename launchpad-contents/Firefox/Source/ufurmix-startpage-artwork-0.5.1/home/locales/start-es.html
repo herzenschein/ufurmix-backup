@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Pagina de empieso del Remix Furry de Ubuntu</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="icon" type="image/png" href="../favicon.png">
+</head>
+<body>
+<center>
+<table width="320px" style="padding-top:125px; background: url('../bg.png') no-repeat 0px 60px;"><tr><th colspan="3" align="center"><form method='get' action="http://www.google.com/search">
+		<input type='text' id="searchInput" title="Search" value="" name='q' size="30" maxlength="255">
+		<input type='hidden' name='ie' value='UTF-8'>
+		<input type='hidden' name='oe' value='UTF-8'>
+</th></tr>
+<script type="text/javascript">
+  searchInput = document.getElementById('searchInput');           searchInput.focus();    search_select(searchInput);
+</script>
+<tr><td>
+		<input type='submit' name="btnG" value="Google" title="Buscar en Google" style="float:right">
+	</form></td>
+	<td align="center">
+	<form action="http://es.wikipedia.org/w/index.php" onsubmit="prepare_quiery('wpInput')">
+		<input id="wpInput" name="search" type="hidden" value="">
+		<input type='submit' name="go" value="Wikipedia" title="Buscar en wikipedia, la enciclopedia de contenido libre">
+	</form></td>
+	<td>
+	<form action="http://es.wikifur.com/w/index.php" onsubmit="prepare_quiery('wfInput')">
+		<input id="wfInput" name="search" type="hidden" value="">
+		<input type='submit' name="wikifur" value="WikiFur" title="Buscar en WikiFur, la enciclopedia libre escrita por y para la comunidad furry." style="float:left">
+	</form></td>
+</tr><tr><td height="50px" colspan="3" align="center"><noscript><span style="color: red">si JavaScript esta apagado, nomas la busqueda de google va a funcionar</span></noscript></td></tr>
+</table>
+</center>
+<script type="text/javascript">
+   function prepare_quiery(txt) {document.getElementById(txt).value = document.getElementById('searchInput').value;}  
+  </script>
+</body>
+</html>

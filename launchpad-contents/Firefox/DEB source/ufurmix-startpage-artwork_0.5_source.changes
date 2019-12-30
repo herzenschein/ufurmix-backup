@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 13 Sep 2010 16:41:18 +0400
+Source: ufurmix-startpage-artwork
+Binary: ufurmix-startpage-artwork
+Architecture: source
+Version: 0.5
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-startpage-artwork - Ubuntu Furry Remix startpage
+Changes: 
+ ufurmix-startpage-artwork (0.5) lucid; urgency=low
+ .
+   * Created a separate package with startpage artwork
+   * Updated German translation, thanks to Achim Behrens
+   * Added Dutch translation, thanks to Bert de Bruijn
+Checksums-Sha1: 
+ 824fe4f587845f1e52c0175e24885730b617bbab 1081 ufurmix-startpage-artwork_0.5.dsc
+ f88d4d4ba1e31d09f24a2ae620119146c7ed06d8 55777 ufurmix-startpage-artwork_0.5.tar.gz
+Checksums-Sha256: 
+ c1cd7f137bf1acbcad058a982a22cbbc72b73d9e68d63fc270cfb2951667d456 1081 ufurmix-startpage-artwork_0.5.dsc
+ fae56b7875a78c7619e18dcfaf743d474177056dbdf8e4ffd97740768bb88e96 55777 ufurmix-startpage-artwork_0.5.tar.gz
+Files: 
+ 98591e167cebd05bea0fd8b0efc85bda 1081 web optional ufurmix-startpage-artwork_0.5.dsc
+ 76f7059f80bb2544975108dbb610c121 55777 web optional ufurmix-startpage-artwork_0.5.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJMjluyAAoJEDh2a1vjsqhn1vIH/3gGhaFnfAPyXIyDFOyv5jtV
+8FURyVygFhlqFATj7CV4FGVMdS7T8aIwz6M4olYMN7Dap8yNUaRpJ6PXNahkpXB9
+q9gkJKzX6bYHzaNvpv2AmMTxPwdlr9uEp+RzGHtjFXt47DO1DMhmFJbKvb6EekWJ
+KvuhWE6HADcfC6qTCU38E2OoeXTxH8zdGkKTMpMk9M7vwRkAT2LvzTIEyLGsb5O7
+YW0ZV+1Go3PgWqeo+6TMcGVisYvV0m2Dusr2mIs6JPH4lQBwHVWSXSUV0psQf8f6
+qFRAo+UxUyTXgxhV23EtWN4eEPBSK93gwb5XCOvmDGRHZIQ/828V6j8ycvw8gmQ=
+=fz/9
+-----END PGP SIGNATURE-----

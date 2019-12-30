@@ -1,0 +1,13 @@
+Source: ufurmix-components-experimental
+Section: metapackages
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.0
+
+Package: ufurmix-components-experimental
+Architecture: all
+Depends: furry-smilepacks, ufurmix-metacity-theme
+Suggests: ufurmix-components-stable
+Description: Ubuntu Furry Remix experimental components
+ This package installs Furry Remix components, which are considered experimental - they can be incomplete, untested or contain too low quality artwork. If you notice any bugs, please report them in Launchpad.

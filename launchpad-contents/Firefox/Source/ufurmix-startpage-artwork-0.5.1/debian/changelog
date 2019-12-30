@@ -1,0 +1,13 @@
+ufurmix-startpage-artwork (0.5.1) lucid; urgency=medium
+
+  * debian/control: fixed a packaging conflict with ufurmix-firefox-tweaks
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 21 Sep 2010 18:32:49 +0400
+
+ufurmix-startpage-artwork (0.5) lucid; urgency=low
+
+  * Created a separate package with startpage artwork
+  * Updated German translation, thanks to Achim Behrens
+  * Added Dutch translation, thanks to Bert de Bruijn
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 13 Sep 2010 16:41:18 +0400

@@ -1,0 +1,13 @@
+Source: ufurmix-startpage-artwork
+Section: web
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+
+Package: ufurmix-startpage-artwork
+Architecture: all
+Depends: ubufox (>= 0.95~ufurmix1), ${misc:Depends}
+Replaces: ubufox, ufurmix-firefox-tweaks
+Description: Ubuntu Furry Remix startpage
+ A Firefox startpage for Ubuntu Furry Remix.

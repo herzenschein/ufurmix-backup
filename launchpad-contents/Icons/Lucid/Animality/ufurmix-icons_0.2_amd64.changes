@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 15 Jan 2011 22:29:48 +0300
+Source: ufurmix-icons
+Binary: ufurmix-icons
+Architecture: source all
+Version: 0.2
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-icons - Ubuntu Furry Remix icon theme
+Changes: 
+ ufurmix-icons (0.2) lucid; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1: 
+ 587b0da4f5f372ad62bc78b709b4ac1fac18ef59 1043 ufurmix-icons_0.2.dsc
+ b619ece7ba91353a83df0502ec78552bee978493 623848 ufurmix-icons_0.2.tar.gz
+ 9026bc2f78f1b83b6e626d2e2dcd392a62c8ecfc 609158 ufurmix-icons_0.2_all.deb
+Checksums-Sha256: 
+ 2f2fe492f2cab7608864b84fc297cd1beab6970199229560c3ef840f17aad25d 1043 ufurmix-icons_0.2.dsc
+ ae06b25569addd67042234a6f4d1b18ca84452d19258a7b0aded40ad27e46886 623848 ufurmix-icons_0.2.tar.gz
+ b010eae8bfacf56bf2af43d85d5b0186fb435c070de4cc53645d0be96ac2417c 609158 ufurmix-icons_0.2_all.deb
+Files: 
+ c8d9e23336ea0d0fe87f14532bb69b16 1043 gnome optional ufurmix-icons_0.2.dsc
+ 5b18e2e0ca891789d63604e7bc97a984 623848 gnome optional ufurmix-icons_0.2.tar.gz
+ f8ac1c3bcc51c52ced58dc63a06afde6 609158 gnome optional ufurmix-icons_0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJNMfgEAAoJEDX+qKYr3ymzwsQH/j9rM5Ma8RfRut1nPdDov8wF
+zSGF4YNzjip1vZd4+9usrjkMO2Ou4ii7am7VqeRKR5Pr5S0eqdtoCVIuX4lX3l3Z
+XpXWgv7wE6YnGrrD7wwSDl1nGr9R8WTi1Aw9iqVrUoYjak6tmID2aRvVq78BWZPB
+mSZ6VHg3/9MjQML+GGfqr6X//UWTwmfdi7W1W5ufJAHQIS8VTw14shfum1+RM0r/
+BPW3P7jLTUbIgf+gd1BkO2Kq60cNJnDHkuG28zfdWitobmA0Zwg/kJ3NRImp9Kr4
+WM2AXdDQ9oRiNLRItcmHyEs95yo9EBC8KbR4PXQQ6rYD+Kai4ItukQ08tDRo8aE=
+=EgEl
+-----END PGP SIGNATURE-----

@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 8 Mar 2010 11:49:15 +0300
+Source: ufurmix-gdm-theme
+Binary: ufurmix-gdm-theme
+Architecture: source all
+Version: 0.3.2
+Distribution: karmic
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-gdm-theme - Ubuntu Furry Remix GDM artwork
+Changes: 
+ ufurmix-gdm-theme (0.3.2) karmic; urgency=low
+ .
+   * Added apps/64/computer.png icon
+Checksums-Sha1: 
+ b6a09d20e3c7dfc403575407f1123b8a3f39a79c 775 ufurmix-gdm-theme_0.3.2.dsc
+ 370cbc4a8a64449389dabff9812bfdb8fbd2286e 63928 ufurmix-gdm-theme_0.3.2.tar.gz
+ 5d002ee67444f41061f99da7d90e96dde866703d 44122 ufurmix-gdm-theme_0.3.2_all.deb
+Checksums-Sha256: 
+ 2c5200122948637b092a52fccf46e30755eb4f5c457a97d9e006b3316a6e8c67 775 ufurmix-gdm-theme_0.3.2.dsc
+ 4f8156786092fa33c2a2aee8466282dad1bbb305415f9862a371db22d2606885 63928 ufurmix-gdm-theme_0.3.2.tar.gz
+ 1e56acde9205341f63050b4b2a96862b82c0e2d38a5e4852618cca66b4b43584 44122 ufurmix-gdm-theme_0.3.2_all.deb
+Files: 
+ 257494bd39bd1a14de6cc887e3caf2c6 775 gnome optional ufurmix-gdm-theme_0.3.2.dsc
+ 4f3ea0e846e359e86f288f018a1f7659 63928 gnome optional ufurmix-gdm-theme_0.3.2.tar.gz
+ 556fe8fb355e9feaee3aec8464ce6a60 44122 gnome optional ufurmix-gdm-theme_0.3.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkuU/pIACgkQ4S9k9n2hVyPwOQCgmbuwKOD9lr+U24sbzi1dpSic
+haEAn3K2kD8deT2jloLcnNRQyQ0Dvhw7
+=jO6o
+-----END PGP SIGNATURE-----

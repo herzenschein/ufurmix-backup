@@ -1,0 +1,9 @@
+[autorun]
+open=wubi.exe --cdmenu
+icon=ufurmix.ico
+label=Ubuntu Furry Remix LiveCD
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false

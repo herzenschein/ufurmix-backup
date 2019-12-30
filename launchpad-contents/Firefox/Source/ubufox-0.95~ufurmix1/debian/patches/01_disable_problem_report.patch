@@ -1,0 +1,18 @@
+=== modified file 'content/ubuntuHelpMenuOverlay.xul'
+--- ubufox/content/ubuntuHelpMenuOverlay.xul	2007-08-16 15:12:56 +0000
++++ ubufox/content/ubuntuHelpMenuOverlay.xul	2010-07-14 10:16:50 +0000
+@@ -46,9 +46,13 @@
+   </stringbundleset>
+ 
+   <menupopup id="menu_HelpPopup">
++<!-- 
++This entry commented out for stable release as per: 
++https://blueprints.launchpad.net/ubuntu/+spec/desktop-lucid-bug-management
+     <menuitem id="ubufox-reportbug" label="&ubufox.launchpad.reportbug.label;" 
+               oncommand="ubufoxReportBug(event);"
+               insertbefore="aboutSeparator"/>
++-->
+     <menuitem label="&ubufox.launchpad.gethelponline.label;"
+               oncommand="ubufoxGetHelpOnline(event);"
+               insertbefore="aboutSeparator"/>
+

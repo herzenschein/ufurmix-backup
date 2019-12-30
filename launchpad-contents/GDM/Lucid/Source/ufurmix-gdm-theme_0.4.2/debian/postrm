@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/interface/icon_theme LoginIcons
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/background/picture_filename /usr/share/backgrounds/warty-final-ubuntu.png
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/background/picture_options stretched

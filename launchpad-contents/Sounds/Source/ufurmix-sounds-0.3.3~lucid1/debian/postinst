@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo -u gdm gconftool-2 --set --type string --set /desktop/gnome/sound/theme_name ufurmix

@@ -1,0 +1,21 @@
+Source: ufurmix-wallpapers
+Section: x11
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5), cdbs, python-dev (>= 2.4), python-distutils-extra, python-central (>= 0.5)
+XS-Python-Version: all
+Standards-Version: 3.8.0
+
+Package: ufurmix-wallpapers
+Architecture: all
+Section: x11
+Depends: ${misc:Depends}
+Description: Ubuntu Furry Remix Wallpapers
+ The default Wallpapers for Ubuntu Furry Remix. At the moment the package contains:
+   - Tigers by Alexander Faolchu (CC-BY-NC)
+   - Roar by Shnatsel, based on Fedora Leonidas wallpaper by sstorari (CC-BY-SA)
+   - Ubuntu Lynx by Blau Araujo (Devos Studio) (GNU GPL v2)
+   - Earthen Ibex by Rico Sta. Cruz (CC-BY)
+   - Wilderness by Artem Mer (Artistic 2.0)
+   - Rock Painting by Latifu, John Baer and Shnatsel (CC-BY-SA)
+   - Moonfight Dance by TaniDaReal (CC-BY-NC)

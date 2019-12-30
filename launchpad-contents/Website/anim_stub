@@ -1,0 +1,10 @@
+$(document).ready(function(){
+ $('#lucid-tab').mouseover(function(){
+  $('#karmic-tab').animate({
+    opacity: 0.8,
+    left: '-=180'
+  }, 1200, function() {
+    // Animation complete.
+  });
+ });
+});

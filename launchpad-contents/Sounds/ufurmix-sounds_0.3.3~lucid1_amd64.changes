@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 17 Feb 2010 15:09:20 +0300
+Source: ufurmix-sounds
+Binary: ufurmix-sounds
+Architecture: source all
+Version: 0.3.3~lucid1
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-sounds - Ubuntu Furry Remix sound theme
+Changes: 
+ ufurmix-sounds (0.3.3~lucid1) lucid; urgency=low
+ .
+   * Re-uploaded to Lucid with minor fixes
+Checksums-Sha1: 
+ f153a1bd576a594e1365f94a9934c0a8a2988c45 1068 ufurmix-sounds_0.3.3~lucid1.dsc
+ 5d134d7430b9f8b578623feb24ad501c822f803d 2662389 ufurmix-sounds_0.3.3~lucid1.tar.gz
+ e1251cb35a99fe83e3611a47d9afb8dbc2c8bbad 528948 ufurmix-sounds_0.3.3~lucid1_all.deb
+Checksums-Sha256: 
+ 3aeed13bbb8989ef4890ed540cc5b9afb775bf54fe12387e01cbd37ac9e19ce1 1068 ufurmix-sounds_0.3.3~lucid1.dsc
+ 8cb321fdd79448a0bc1fb700a631e4bdf922c8a449b2f019200a01247cf775b4 2662389 ufurmix-sounds_0.3.3~lucid1.tar.gz
+ e035f1314228af62ae569331b5d3ab4d7ddb100c536a56d86775425b5d6cbfb4 528948 ufurmix-sounds_0.3.3~lucid1_all.deb
+Files: 
+ 6669fb12760cf0b091c51f0290ca5252 1068 gnome optional ufurmix-sounds_0.3.3~lucid1.dsc
+ af2dbe554c233cd6ec2bd17964292693 2662389 gnome optional ufurmix-sounds_0.3.3~lucid1.tar.gz
+ 353d19c3800686180c6489310d470a41 528948 gnome optional ufurmix-sounds_0.3.3~lucid1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL9oVLAAoJEDh2a1vjsqhnL50H/iN1BxZVTNzkljq9nkOjj8Eu
+2iSUiklWPTpz/5/sIzX6gaX6OAk4y4wrU9vU+BCxHpfY9uZnqiyT5wslHEj6WJhU
+FvVU53J5PvL7SolCNPz5kwJSH3+HwvwjoqSGou2JM25eK979d86mBFUWt4qJtZXe
+p9ROQ3QUDt59VuQcUhj6oguaetHxl3LQwD+L2mQFZyhtSX/kUOCJJoDyyex9bjwt
+cPN0BdOv1u3ovLoMrEL4OG7UK2HZwSazIAqoKBwAPYq2pKry9NRbOhd5AX9Ywv78
+rCd/O/QFpQNlCWPcjoK7rHtAmKAs6NXAEK9dqNCA/qh/PvaBFSy70yPLCG+MTJo=
+=CUJj
+-----END PGP SIGNATURE-----

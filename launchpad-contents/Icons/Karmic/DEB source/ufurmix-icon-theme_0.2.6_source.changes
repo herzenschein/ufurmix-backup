@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 22 Mar 2010 18:07:13 +0300
+Source: ufurmix-icon-theme
+Binary: ufurmix-icon-theme
+Architecture: source
+Version: 0.2.6
+Distribution: karmic
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-icon-theme - Ubuntu Furry Remix Icon theme
+Changes: 
+ ufurmix-icon-theme (0.2.6) karmic; urgency=low
+ .
+   * Fixed two folder-visiting icons
+Checksums-Sha1: 
+ ca791896eb03cd9a2e9e019d7ec6bf90be0a1d97 786 ufurmix-icon-theme_0.2.6.dsc
+ 227b89da92359bf43ebcd42de3dad2d36690ab7c 2322802 ufurmix-icon-theme_0.2.6.tar.gz
+Checksums-Sha256: 
+ 7210d3dddab906055ab7d31a6e30d9e0aee8f06327750f8b00bcc09dd8e54da8 786 ufurmix-icon-theme_0.2.6.dsc
+ 5a4c2b9cc102502f58f5f9edd2005aa011eccc01dbc740243249c0423c136414 2322802 ufurmix-icon-theme_0.2.6.tar.gz
+Files: 
+ 31ee0c0bc907fcab0da620af4b90bae9 786 gnome optional ufurmix-icon-theme_0.2.6.dsc
+ cea31dd149dcc8ba01bc0c14ea66a3d8 2322802 gnome optional ufurmix-icon-theme_0.2.6.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkunsr4ACgkQSRcQqSe0+pohgwCfevvcYkFH2v7FQBWPhsIYdEWn
+3nYAn1O7UXE9akdYiC/wI8Dx6T3xKtn2
+=z+pf
+-----END PGP SIGNATURE-----

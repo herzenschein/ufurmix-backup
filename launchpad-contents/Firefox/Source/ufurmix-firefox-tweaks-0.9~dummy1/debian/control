@@ -1,0 +1,16 @@
+Source: ufurmix-firefox-tweaks
+Section: net
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+
+Package: ufurmix-firefox-tweaks
+Architecture: all
+Depends: ubufox, ufurmix-startpage-artwork, ${misc:Depends}
+Replaces: ubufox
+Description: Transitional dummy package for ufurmix-startpage-artwork
+ The package ufurmix-firefox-tweaks was split into ufurmix-startpage-artwork
+ and ubufox packages.
+ .
+ This is a dummy, transitional package which can be safely removed.

@@ -1,0 +1,7 @@
+animIn = 0;
+animOut = 1;
+while (animOut == 1) {
+
+
+if object.x == /* needed value */ {break;}
+}

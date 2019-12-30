@@ -1,0 +1,149 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: экспорт CFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт CPPFLAGS из dpkg-buildflags (происхождение: vendor): 
+dpkg-buildpackage: экспорт CXXFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт FFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт LDFLAGS из dpkg-buildflags (происхождение: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: пакет исходных текстов ufurmix-icons
+dpkg-buildpackage: версия исходных текстов 0.2
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+ dpkg-source --before-build ufurmix-icons-0.2
+dpkg-buildpackage: архитектура хоста amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-icons-0.2
+dpkg-source: предупреждение: не задан формат исходников в debian/source/format, см. dpkg-source(1)
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-icons в ufurmix-icons_0.2.tar.gz
+dpkg-source: инфо: сборка ufurmix-icons в ufurmix-icons_0.2.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+touch build-stamp
+ fakeroot debian/rules binary
+dh install
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_pysupport
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+for d in $(find /home/serioga/Buffer/build-waterfall/ufurmix-icons-0.2/debian/ufurmix-icons/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
+		(cd $d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $c; done); \
+	done
+Setting up icon mapping for: 128
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 128
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 128
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: apps
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 128
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: apps
+touch install-stamp
+dh binary-arch
+dh binary-indep
+   dh_installdeb -i
+   dh_gencontrol -i
+   dh_md5sums -i
+   dh_builddeb -i
+dpkg-deb: сборка пакета ufurmix-icons в файл ../ufurmix-icons_0.2_all.deb.
+ dpkg-genchanges  >../ufurmix-icons_0.2_amd64.changes
+dpkg-genchanges: в закачку включён весь исходный код
+ dpkg-source --after-build ufurmix-icons-0.2
+dpkg-buildpackage: закачка всего; родной пакет Debian (включены все пакеты исходного кода)
+Now running lintian...
+W: ufurmix-icons source: out-of-date-standards-version 3.8.3 (current is 3.9.1)
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-icons_0.2.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+gpg: Неверный пароль; попробуйте еще раз ...
+
+ signfile ufurmix-icons_0.2_amd64.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+
+Successfully signed dsc and changes files

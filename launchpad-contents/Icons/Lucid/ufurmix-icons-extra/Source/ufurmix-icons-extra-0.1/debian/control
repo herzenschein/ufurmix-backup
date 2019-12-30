@@ -1,0 +1,18 @@
+Source: ufurmix-icons-extra
+Section: gnome
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+
+Package: ufurmix-icons-extra
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-icon-theme,
+         hicolor-icon-theme,
+         humanity-icon-theme,
+         ufurmix-icons
+Description: Ubuntu Furry Remix extra-furry icon theme
+ This package contains even furrier icons for Furry Remix icon theme.
+

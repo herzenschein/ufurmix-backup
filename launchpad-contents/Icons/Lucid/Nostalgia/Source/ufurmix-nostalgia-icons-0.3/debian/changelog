@@ -1,0 +1,98 @@
+ufurmix-nostalgia-icons (0.3) lucid; urgency=low
+
+  * Added "light" and "dark" variants (slighly customized ubuntu-mono)
+  * Added pawprints to folders
+  * Renamed to Nostalgia
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 22 Dec 2010 19:53:21 +0300
+
+ufurmix-icon-theme (0.2.6) karmic; urgency=low
+
+  * Fixed two folder-visiting icons
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 22 Mar 2010 18:07:13 +0300
+
+ufurmix-icon-theme (0.2.5) karmic; urgency=low
+
+  * Rolled back to an older gzip mime icon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Mar 2010 18:38:56 +0300
+
+ufurmix-icon-theme (0.2.4) karmic; urgency=low
+
+  * Changed mimetype icons of gzip archives again
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Mar 2010 15:01:11 +0300
+
+ufurmix-icon-theme (0.2.3) karmic; urgency=low
+
+  * Linked some missing java archive mimetype icons
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Mar 2010 14:42:49 +0300
+
+ufurmix-icon-theme (0.2.2) karmic; urgency=low
+
+  * Linked missing archive icons
+  * Changed mimetype icons of gzip archives
+  * Slightly tweaked karbon14 mimetype icon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Mar 2010 14:40:41 +0300
+
+ufurmix-icon-theme (0.2.1) karmic; urgency=low
+
+  * Added some more icons. The theme is now complete.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 6 Mar 2010 13:40:16 +0300
+
+ufurmix-icon-theme (0.2) karmic; urgency=low
+
+  * Changed base colors
+  * Lots of minor fixes
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 5 Mar 2010 19:03:26 +0300
+
+ufurmix-icon-theme (0.1.7) karmic; urgency=low
+
+  * Changed "apps/preferences-desktop-theme" icon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 5 Mar 2010 19:03:26 +0300
+
+ufurmix-icon-theme (0.1.6) karmic; urgency=low
+
+  * 'Furry' emblems looked too flat, fixed that
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 23 Feb 2010 17:32:02 +0300
+
+ufurmix-icon-theme (0.1.5) karmic; urgency=low
+
+  * stock/person SVGs: cleaned up the code, linked properly
+  * Removed some unused emblems, added emblem 'Furry'
+  * Rolled back to Humanity sound files icons (they're ugly but ours are even uglier)
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 17 Feb 2010 17:27:52 +0300
+
+ufurmix-icon-theme (0.1.3) karmic; urgency=low
+
+  * Fixed 'supported' icon in Synaptic, again.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 7 Feb 2010 10:34:18 +0300
+
+ufurmix-icon-theme (0.1.2) karmic; urgency=low
+
+  * Fixed gtk-info.svg messed up by previuos update.
+  * Fixed some human icons overlaying ours. Brutally and heartlessly.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 6 Feb 2010 14:47:04 +0300
+
+ufurmix-icon-theme (0.1.1) karmic; urgency=low
+
+  * Changed user-info.svg icons.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 5 Feb 2010 17:04:29 +0300
+
+ufurmix-icon-theme (0.1) karmic; urgency=low
+
+  * Initial release.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 19 Jan 2010 20:14:48 +0300
+

@@ -1,0 +1,13 @@
+Source: furry-smilepacks
+Section: net
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: furry-smilepacks
+Architecture: all
+Depends: pidgin
+Description: Furry smiley themes collection for pidgin
+ A part of Ubuntu Furry Remix smiley themes.
+ Currently contains 10 out of 25 planned themes.

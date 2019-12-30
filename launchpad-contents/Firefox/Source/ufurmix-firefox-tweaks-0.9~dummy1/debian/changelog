@@ -1,0 +1,71 @@
+ufurmix-firefox-tweaks (0.9~dummy1) lucid; urgency=low
+
+  * Converted to transitional dummy package
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 11 Sep 2010 18:26:48 +0400
+
+ufurmix-firefox-tweaks (0.6.4) karmic; urgency=low
+
+  * Added French translation, thanks to Le Galéanthrope (~nyamiou) for translating.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 22 May 2010 13:46:50 +0400
+
+ufurmix-firefox-tweaks (0.6.3) karmic; urgency=low
+
+  * Fixed language recognition workarounds, at last
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 15 Apr 2010 18:06:53 +0300
+
+ufurmix-firefox-tweaks (0.6.2) karmic; urgency=low
+
+  * Added German translation, thanks to uvok for translating.
+  * Fixed language recognition workarounds
+  * Added more language workarounds for better compatibility
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 14 Apr 2010 14:27:21 +0300
+
+ufurmix-firefox-tweaks (0.6) karmic; urgency=low
+
+  * Added "Translate this page" link to fallback page
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 29 Mar 2010 18:03:32 +0300
+
+ufurmix-firefox-tweaks (0.5.3) karmic; urgency=low
+
+  * Added Polish translation, thanks to Admc for translating.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 11 Mar 2010 18:19:26 +0300
+
+ufurmix-firefox-tweaks (0.5.2) karmic; urgency=low
+
+  * Added Spanish translation, thanks to Xorrito for translating.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 8 Mar 2010 06:50:58 +0300
+
+ufurmix-firefox-tweaks (0.5.1) karmic; urgency=low
+
+  * After installing and uninstalling this package default Ubuntu startpage
+    didn't work, fixed that.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 23 Feb 2010 16:24:25 +0300
+
+ufurmix-firefox-tweaks (0.5) karmic; urgency=low
+
+  * Fixed upstream language switching bug, I expext Ubuntu to use my patch too
+  * Added GNU gettext support
+  * Added favicon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 23 Feb 2010 15:05:29 +0300
+
+ufurmix-firefox-tweaks (0.4) karmic; urgency=low
+
+  * Added translatability and a sample translation
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 9 Feb 2010 16:42:58 +0300
+
+ufurmix-firefox-tweaks (0.3) karmic; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 24 Jan 2010 16:37:42 +0300
+

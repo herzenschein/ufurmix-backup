@@ -1,0 +1,64 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<table colspan="0" cellspacing="0" width="960" style="margin-left:auto; margin-right:auto; z-index:0; border:px solid green;">
+<tr><td width="560" height="300" style="background-color:#121212"><td width="400" height="300" id="lucid-tab" onmouseover="fadeIn();" onmouseout="fadeOut();" style="background-image:url('lucid-tab-bg.png');"></tr>
+<tr><td colspan="2" style="background-color:#121212">
+<object id="ci_82122_o" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="700" height="400"><param name="movie" value="http://apps.cooliris.com/embed/cooliris.swf"/><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><param name="bgColor" value="#121212" /><param name="flashvars" value="numrows=2&feed=api%3A%2F%2Fpicasaweb.google.com%2F%3Fuser%3DShnatsel%26album%3DUbuntuFurryRemix910Screenshots&showtutorial=false&glowcolor=%23edb75a" /><param name="wmode" value="opaque" /><embed id="ci_82122_e" type="application/x-shockwave-flash" src="http://apps.cooliris.com/embed/cooliris.swf" width="700" height="400" allowFullScreen="true" allowScriptAccess="always" bgColor="#121212" flashvars="numrows=2&feed=api%3A%2F%2Fpicasaweb.google.com%2F%3Fuser%3DShnatsel%26album%3DUbuntuFurryRemix910Screenshots&showtutorial=false&glowcolor=%23edb75a" wmode="opaque"></embed></object>
+<img src="screenshots.gif" width="250" height="400">
+<noscript><img src="screens_deformed_shadowed_cleaned-up.png" width="900" height="225"></noscript>
+</td>
+</tr>
+</table>
+
+<noscript>
+<style type="text/css">
+#lucid-tab {
+  opacity: 1 !important;              /* CSS3 */
+  -moz-opacity: 1;    !important;     /* legacy Firefox */
+  -khtml-opacity: 1;  !important;     /* legacy Safari/Konqueror */
+  filter: alpha(opacity=100); !important; /* M$IE */
+}
+</style>
+</noscript>
+
+<style type="text/css">
+#lucid-tab {
+  opacity: 0.1;              /* CSS3 */
+  -moz-opacity: 0.1;         /* legacy Firefox */
+  -khtml-opacity: 0.1;       /* legacy Safari/Konqueror */
+  filter: alpha(opacity=10); /* M$IE */
+}
+</style>
+
+<script type="text/javascript">
+  var element = document.getElementById('lucid-tab');
+  var initlvl = 0.1;
+  var duration = 600;  /* 500 millisecond fade = 0.5 sec */
+  var steps = 20;       /* number of opacity intervals   */
+
+   /* set the opacity of the element (between 0.0 and 1.0) */
+   function setOpacity(level) {
+   element.style.opacity = level;
+   element.style.MozOpacity = level;
+   element.style.KhtmlOpacity = level;
+   element.style.filter = "alpha(opacity=" + (level * 100) + ");";
+ }
+
+ function fadeIn(){
+   for (i = initlvl; i <= 1; i += (1 / steps)) {
+     setTimeout("setOpacity(" + i + ")", i * duration);
+   }
+ }
+
+  function fadeOut() {
+    for (i = 1; i >= initlvl ; i -= (1 / steps)) {
+     setTimeout("setOpacity(" + i + ")", (1 - i) * duration);
+   }
+ }
+    </script>
+
+</body>

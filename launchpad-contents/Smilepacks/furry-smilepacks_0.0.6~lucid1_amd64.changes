@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 12 Feb 2010 20:52:34 +0300
+Source: furry-smilepacks
+Binary: furry-smilepacks
+Architecture: source all
+Version: 0.0.6~lucid1
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ furry-smilepacks - Furry smiley themes collection for Pidgin IM client
+Changes: 
+ furry-smilepacks (0.0.6~lucid1) lucid; urgency=low
+ .
+   * Re-uploaded to Lucid
+Checksums-Sha1: 
+ 5c653d653c90702ade08fd98f4dbb105920ae0d4 1072 furry-smilepacks_0.0.6~lucid1.dsc
+ d150635740f16dbfa39c63b9ce17a5732710435a 79543 furry-smilepacks_0.0.6~lucid1.tar.gz
+ 1a2de2fac14d3ba4cfed8e059bee1be467845df8 84230 furry-smilepacks_0.0.6~lucid1_all.deb
+Checksums-Sha256: 
+ a28f99bae76dc7ccc4a1d45dda8ef862ac39b2901d2f9ead292b75b219594e86 1072 furry-smilepacks_0.0.6~lucid1.dsc
+ 050be4f7fef27a002b92b1fc0231ec3a6f43091de68433ed5b1e4a3c870d75f4 79543 furry-smilepacks_0.0.6~lucid1.tar.gz
+ d9d7a53b1a117465f74ace56edb990f186058a2f5a5f90ab508b49deabae3580 84230 furry-smilepacks_0.0.6~lucid1_all.deb
+Files: 
+ 91989421f072725ba9f9bf536043f881 1072 net optional furry-smilepacks_0.0.6~lucid1.dsc
+ 0e7f6aa82a1104a8146bee9e3d85a0dd 79543 net optional furry-smilepacks_0.0.6~lucid1.tar.gz
+ c64dd93340d977865aab81b1f74f3f1b 84230 net optional furry-smilepacks_0.0.6~lucid1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL9o5QAAoJEDh2a1vjsqhntOsH/1H75crxs/mVs5zBVqBZQhc5
+HSdPBiEOnIz3zl71pBp0GfxaGgu3+dN3Rq0yQ7JMG82WyS1+5tS4iXi1l2NEn7MR
+2wvfQB12TkxoHieJcCevPnnEzIifDMLaRK7e6/Ho0DAKTIa9LrwBJIgJhDTVMRkt
+/8ynIJfMpdct+LGHqvJyRKw05JkRo9ndhLPYPuQNL5CdrIX4PYiY09KFK+BfQWxW
+Xo7zAg2w5lNkCmoq9yvpIHO2W9yIrtIVRKwT/zECwvKl5dYEs1qdBXg50TThAwsG
+B2SOrlzlGogTytxvylPScRSPMFLBxFx2UaCi4RvVwB+Pi/qsTVH6BE4DlOJc5bM=
+=4B33
+-----END PGP SIGNATURE-----

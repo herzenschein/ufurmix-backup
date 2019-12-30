@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 22 Dec 2010 19:53:21 +0300
+Source: ufurmix-nostalgia-icons
+Binary: ufurmix-nostalgia-icons
+Architecture: source
+Version: 0.3
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-nostalgia-icons - Ubuntu Furry Remix Nostalgia icon theme
+Changes: 
+ ufurmix-nostalgia-icons (0.3) lucid; urgency=low
+ .
+   * Added "light" and "dark" variants (slighly customized ubuntu-mono)
+   * Added pawprints to folders
+   * Renamed to Nostalgia
+Checksums-Sha1: 
+ 35cc4f87bafa0c90739d4209a35b8745cb98921b 1096 ufurmix-nostalgia-icons_0.3.dsc
+ 52255993033ea08e068c9b1c9801112c90beadd0 2916727 ufurmix-nostalgia-icons_0.3.tar.gz
+Checksums-Sha256: 
+ cc75831516c7e017b4e416f4a29580955f2ba14b44a2058fa841cc199c17195e 1096 ufurmix-nostalgia-icons_0.3.dsc
+ 2e99d30b407a8a9b134487645ccfc253a62ed4d4a8dd9d2686a9b6569814e00b 2916727 ufurmix-nostalgia-icons_0.3.tar.gz
+Files: 
+ 3dfc20c253d79db27ce327200e423ef2 1096 gnome optional ufurmix-nostalgia-icons_0.3.dsc
+ 74fa5f3dfa0950d9ba48eeb513a6ba24 2916727 gnome optional ufurmix-nostalgia-icons_0.3.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJNJGC1AAoJEDX+qKYr3ymz/mUH/3WalNbH0ZvgLBRyqyx9//g4
+pXpur3GBGG7zrhLsfmma/buCsI4aDSBdRdhHgpNm1d6yvI0jhsvQq6ig+/cCCSLx
+epvtCuJMBhQ1et30jy+3aNgvWpT1dPGDf3eJz+K+MKEu/xl56rNmIGl9vijFte9a
+/0fzBGJV/j1W7jWUau0/Kv+yRpBYUlB3alSLt8P5J33zVwvYPPwhOeAngHWEluV5
+4B+/6qc+bZwGPq2Lp0bdjbO7LLPRKbl9UsmDBR5ANLseN4Cb/zMfSbxGYPTrRFB6
+ZtDvahoEcKGjqrbRhP8UwT8iDYcw8xRuL1FsBqcIooJC5xsv3qvz6JffGPWJlo4=
+=+zw+
+-----END PGP SIGNATURE-----

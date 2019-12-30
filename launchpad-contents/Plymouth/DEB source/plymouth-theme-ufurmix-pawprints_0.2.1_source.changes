@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 22 Jan 2011 17:50:07 +0300
+Source: plymouth-theme-ufurmix-pawprints
+Binary: plymouth-theme-ufurmix-pawprints
+Architecture: source
+Version: 0.2.1
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ plymouth-theme-ufurmix-pawprints - graphical boot animation and logger - Furry Remix theme
+Changes: 
+ plymouth-theme-ufurmix-pawprints (0.2.1) lucid; urgency=low
+ .
+   * Improved animation
+Checksums-Sha1: 
+ 0d596ae406f0a5f0a0534bbfe02bc4492260c7d7 1138 plymouth-theme-ufurmix-pawprints_0.2.1.dsc
+ d7ec0369fb81cd8119ea476f988429ac00d73d82 35948 plymouth-theme-ufurmix-pawprints_0.2.1.tar.gz
+Checksums-Sha256: 
+ b75d9360d8a412cc3289de52f2e7638dab80bb5eaa8b295b0a6018305736d058 1138 plymouth-theme-ufurmix-pawprints_0.2.1.dsc
+ f2c1714078766fb8e41e3a583a9bef6d0e25611e4508fe1e335a356910c0a99d 35948 plymouth-theme-ufurmix-pawprints_0.2.1.tar.gz
+Files: 
+ 46dae7c68512a8dece9c07078b443634 1138 x11 optional plymouth-theme-ufurmix-pawprints_0.2.1.dsc
+ 6f1d3e32837c15276c97475dd56c92f2 35948 x11 optional plymouth-theme-ufurmix-pawprints_0.2.1.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJNOu8cAAoJEDX+qKYr3ymzx8sIAJAxujgBs5yKOuOgkpUiyYsi
+gSk6rXsp6Nnq7rCSYufJt5v92D+rti6of87rTdbqhhbiSt1vhtmTCcdVhn9Jq9ih
+hHr+ZYfadBYKYjlEX0AC3xIlAuqTVAzAyEVEqTMNBThua1ueiiC7sdqmIrdDQ9y0
+CGW+tOFx7CS8HN2Du/M+FdUZMfqiCRPonARKlH3apk0nGO/0AhHO5wZYSFnzQ4it
+vngFaHDlCIAts0/WH60L7aY6+mSQTar7EsjIqt17ZKu2siBSNgzJeS4zN/AZTA6/
+sOc0iOyJoDs7a4BsoFWWHtccyeK2YXbsaJpwon8fP4Gn294ERGD8Fk0ONuRvpGk=
+=74O6
+-----END PGP SIGNATURE-----

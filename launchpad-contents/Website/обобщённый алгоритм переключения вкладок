@@ -1,0 +1,38 @@
+init
+{
+init animation locks
+calculate and draw map
+init tab order
+}
+
+
+switch
+{
+-2: opacity, size, transform
+-1: size, transform
+1: size, transform
+2: opacity, size, transform
+
+get current position
+get current size
+
+while (| current_pos - needed_pos | > 5) {
+
+// for 1 and 2:
+object.pos = | current_pos - needed_pos | / 2;
+object.size = | current_size - needed_size | / 2;
+object.transform //skew by the same principle
+
+//for 2 (and similar for -2):
+object.opacity //decrement by dividing by 2
+
+//for -1 and -2:
+object.pos = | current_pos - needed_pos | / 2;
+object.size = | current_size - needed_size | / 2;
+object.transform //skew by the same principle
+
+}
+
+re-init tab order
+hide -3 and 3
+}

@@ -1,0 +1,18 @@
+furry-smilepacks (0.0.6) karmic; urgency=low
+ 
+  * Added 2 variations of snow leopard pack by Athari
+  * Minor packaging tweaks
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 12 Feb 2010 20:52:34 +0300
+
+furry-smilepacks (0.0.5) karmic; urgency=low
+ 
+  * Fixed awful packaging bug
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 6 Feb 2010 16:42:31 +0300
+
+furry-smilepacks (0.0.4) karmic; urgency=low
+ 
+  * Repackaged with debuild, source code package is now available
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 23 Nov 2009 22:26:55 +0300

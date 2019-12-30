@@ -1,0 +1,17 @@
+ufurmix-gdm-theme (0.3.2) karmic; urgency=low
+
+  * Added apps/64/computer.png icon
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 8 Mar 2010 11:49:15 +0300
+
+ufurmix-gdm-theme (0.3.1) karmic; urgency=low
+
+  * Fixed dependencies bug
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 19 Feb 2010 16:17:14 +0300
+
+ufurmix-gdm-theme (0.3) karmic; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 18 Feb 2010 19:24:19 +0300

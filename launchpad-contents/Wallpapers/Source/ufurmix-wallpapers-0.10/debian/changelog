@@ -1,0 +1,90 @@
+ufurmix-wallpapers (0.10) lucid; urgency=low
+
+  * Added "Moonfight Dance" by TaniDaReal
+  * Added info about "Roar" source XCF
+  * 1.0 will never happen :P
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 19 Jan 2011 18:35:04 +0300
+
+ufurmix-wallpapers (0.9) lucid; urgency=low
+
+  * Completely removed "Howl" wallpaper
+  * Added "Wilderness" by Latifu, John Baer and Shnatsel
+  * Unified file naming
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 28 Sep 2010 18:03:37 +0400
+
+ufurmix-wallpapers (0.8.5) lucid; urgency=low
+
+  * Added "Wilderness" by Artem Mer
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 10 Sep 2010 17:50:54 +0400
+
+ufurmix-wallpapers (0.8) lucid; urgency=low
+
+  * Added "Howl" by Vinny "Darkowl" Bebop
+  * Updated copyright and control files correspondingly
+  * Really fixed software-center stuff
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 05 Sep 2010 18:54:23 +0400
+
+ufurmix-wallpapers (0.7) lucid; urgency=low
+
+  * Added "Ubuntu Lynx" by Blau Araujo
+  * Added "Earthen Ibex" by Rico Sta. Cruz
+  * Updated copyright and control files correspondingly
+  * Wallpaper list didn't look like a list in software-center - fixed that
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 05 Sep 2010 18:54:23 +0400
+
+ufurmix-wallpapers (0.6.1) lucid; urgency=low
+
+  * Fixed obsolete naming
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 16 Jun 2010 15:59:43 +0400
+
+ufurmix-wallpapers (0.6) lucid; urgency=low
+
+  * Dropped "Leonidas" wallpaper in favor of its successor, "Roar"
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 26 Apr 2010 15:33:46 +0400
+
+ufurmix-wallpapers (0.5.1) karmic; urgency=low
+
+  * Fixed bug: Tigers wallpaper was not shown in appearance preferences dialog
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 10 Jan 2010 18:28:39 +0300
+
+ufurmix-wallpapers (0.5) karmic; urgency=low
+
+  * Tigers: rolled back to an early version
+  * Tigers: applied additional JPEG preprocessing
+  * Fixed a typo in copyright file
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 09 Jan 2010 02:02:18 +0300
+
+ufurmix-wallpapers (0.4.3) karmic; urgency=low
+
+  * Tigers: tweaked the colors again. 
+  * Tigers: added minimal blur and slightly reduced file size.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 01 Jan 2010 09:05:37 +0300
+
+ufurmix-wallpapers (0.4.2) karmic; urgency=low
+
+  * Added translation template and Russian translation
+  * Package rebuilt with debuild, source code package is now available
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sat, 07 Nov 2009 13:19:57 +0300
+
+ufurmix-wallpapers (0.4.1) karmic; urgency=low
+
+  * Tigers: tweaked the colors.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 06 Nov 2009 17:47:00 +0300
+
+ufurmix-wallpapers (0.4) karmic; urgency=low
+
+  * Initial release: ufurmix-wallpaper and ufurmix-extra-wallpapers merged into this package, added copyright information.
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Tue, 06 Oct 2009 13:34:00 +0300

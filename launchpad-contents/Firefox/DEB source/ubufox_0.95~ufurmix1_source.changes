@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 13 Sep 2010 15:13:42 +0400
+Source: ubufox
+Binary: ubufox
+Architecture: source
+Version: 0.95~ufurmix1
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ubufox     - Ubuntu Furry Remix configuration defaults for Firefox
+Changes: 
+ ubufox (0.95~ufurmix1) lucid; urgency=low
+ .
+   * Fixed lots of upstream bugs - THIS THING NOW WORKS!!!
+     It took me 2 moths to try to debug this ****ing ****, fail,
+     fail completely, test upstream package, belch forth,
+     and forward-port Karmic system to Lucid!
+   * Tested embarrassment-driven development. Actually, it works. I've announced
+     a call for help, but nobody answered my call, so I ended up fixing
+     all this crap myself.
+   * Thought about Chris Coulson and Alexander Sack. They're bastards.
+Checksums-Sha1: 
+ 3415354e9b5e05b76021455d92189c86b1db79eb 1063 ubufox_0.95~ufurmix1.dsc
+ def9cd564efe346923f4d33bf3afe40054bcb13e 81867 ubufox_0.95~ufurmix1.tar.gz
+Checksums-Sha256: 
+ 3f5404f90dd1f50cdf72d4a7cafbd0c3696b438048b52f6d7dfc83e1dc34e890 1063 ubufox_0.95~ufurmix1.dsc
+ 94d1c27daefe761c3c51d38c4e062c09e7164158fc2935554bf4643c12a2575a 81867 ubufox_0.95~ufurmix1.tar.gz
+Files: 
+ dac35b360d477c0b48909021d18d9892 1063 web optional ubufox_0.95~ufurmix1.dsc
+ 43e8c033b206bc16d52710d33232d2a0 81867 web optional ubufox_0.95~ufurmix1.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJMjl2EAAoJEDh2a1vjsqhnZtEIAM/db77yntFbM4uulYU97aCj
+Z5mQIqsJAwxt036ykLtuyGvLNO6vxi78EnKD1m4oRcxH9vYopPx3qd7OICSZ630I
+nDXcAx+wWsPDnhAYb0w1SQw0O3J8RqflvKaXKbiBwaXf904hIM4rZhZ3sL11CwBo
+gwl6LwUnzShNL83Ta+9MGACZDPwFP+iwr/MqMlKiwKmbIv5sxuItFgLwZwn9PGwE
+qgcqpsCHMl14wnGtSHKRA9nFUympPVq70sZdWRl7B1Mv54c3OKOs6mToJt3JYO/s
+DyEWmXhGK4Jn83J+ADGsuyjDEZITMnrR6UO0eReOtq9+3qmBjNT9I68FzqZMmsg=
+=7tM2
+-----END PGP SIGNATURE-----

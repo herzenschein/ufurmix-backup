@@ -1,0 +1,63 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<table colspan="0" cellspacing="0" width="960" style="margin-left:auto; margin-right:auto; z-index:0; border:1px solid green;">
+<tr><td width="560" height="300" style="background-color:#000000"><td width="400" height="300" id="lucid-tab" onmouseover="fadeIn();" onmouseout="fadeOut();" style="background-image:url('lucid-tab-bg.png');"></tr>
+<tr><td colspan="2"></td></tr>
+</table>
+
+
+<style type="text/css">
+#lucid-tab {
+  opacity: 0.1;              /* CSS3 */
+  -moz-opacity: 0.1;         /* legacy Firefox */
+  -khtml-opacity: 0.1;       /* legacy Safari/Konqueror */
+  filter: alpha(opacity=10); /* M$IE */
+}
+</style>
+
+<script type="text/javascript">
+  var element = document.getElementById('lucid-tab');
+  var initlvl = 0.1;
+  var inlvl = initlvl;
+  var outlvl = initlvl;
+  var flagIn = 0;
+  var flagOut = 0;
+  var duration = 600;  /* 500 millisecond fade = 0.5 sec */
+  var steps = 20;       /* number of opacity intervals   */
+
+   /* set the opacity of the element (between 0.0 and 1.0) */
+   function setOpacity(level) {
+   element.style.opacity = level;
+   element.style.MozOpacity = level;
+   element.style.KhtmlOpacity = level;
+   element.style.filter = "alpha(opacity=" + (level * 100) + ");";
+ }
+
+ function fadeIn(){
+ flagIn = 1;
+   for (i = outlvl; i <= 1; i += (1 / steps)) {
+     if (flagOut == 0) {
+     setTimeout("setOpacity(" + i + ")", i * duration);
+     inlvl = i;
+     }
+   }
+ flagIn = 0;
+ }
+
+  function fadeOut() {
+  flagOut = 1;
+    for (i = inlvl; i >= initlvl ; i -= (1 / steps)) {
+     if (flagIn == 0) {
+     setTimeout("setOpacity(" + i + ")", (1 - i) * duration);
+     outlvl = i;
+     }
+   }
+ flagOut = 0;
+ }
+    </script>
+
+</body>

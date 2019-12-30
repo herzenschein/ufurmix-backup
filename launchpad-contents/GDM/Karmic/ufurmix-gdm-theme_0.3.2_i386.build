@@ -1,0 +1,127 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: установка CFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CPPFLAGS в значение по умолчанию: 
+dpkg-buildpackage: установка LDFLAGS в значение по умолчанию: -Wl,-Bsymbolic-functions
+dpkg-buildpackage: установка FFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CXXFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: пакет исходных текстов ufurmix-gdm-theme
+dpkg-buildpackage: версия исходных текстов 0.3.2
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+dpkg-buildpackage: архитектура хоста i386
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-gdm-theme_0.3.2
+dpkg-source: предупреждение: каталог исходников 'ufurmix-gdm-theme_0.3.2' не в виде <пакет исходников>-<оригинальная версия> 'ufurmix-gdm-theme-0.3.2'
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-gdm-theme в ufurmix-gdm-theme_0.3.2.tar.gz
+dpkg-source: инфо: сборка ufurmix-gdm-theme в ufurmix-gdm-theme_0.3.2.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+touch build-stamp
+ fakeroot debian/rules binary
+dh install
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installcatalogs
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_pysupport
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+for d in $(find /home/serioga/Buffer/BuildWaterfall/ufurmix-gdm-theme_0.3.2/debian/ufurmix-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
+		(cd $d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $c; done); \
+	done
+find: `/home/serioga/Buffer/BuildWaterfall/ufurmix-gdm-theme_0.3.2/debian/ufurmix-icon-theme/usr/share/icons': No such file or directory
+touch install-stamp
+dh binary-arch
+dh binary-indep
+   dh_installdeb -i
+   dh_gencontrol -i
+   dh_md5sums -i
+   dh_builddeb -i
+dpkg-deb: сборка пакета ufurmix-gdm-theme в файл ../ufurmix-gdm-theme_0.3.2_all.deb.
+ dpkg-genchanges  >../ufurmix-gdm-theme_0.3.2_i386.changes
+dpkg-genchanges: в закачку включён весь исходный код
+dpkg-buildpackage: закачка всего; родной пакет Debian (включены все пакеты исходного кода)
+Now running lintian...
+W: ufurmix-gdm-theme source: maintainer-script-lacks-debhelper-token debian/postinst
+W: ufurmix-gdm-theme source: maintainer-script-lacks-debhelper-token debian/postrm
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/menu-button.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-max.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/48/system-shutdown.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/system-shutdown.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/menu_bg.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-max-focus.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/preferences-desktop-keyboard.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/48/drive-harddisk.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/preferences-desktop-accessibility.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/go-home.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/preferences-desktop-locale.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/session-properties.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/48/view-refresh.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/preferences-desktop-locale.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/menu-button-pressed.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/system-shutdown.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/48/preferences-desktop-accessibility.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/48/sleep.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-close.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/preferences-desktop-accessibility.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-min-focus.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-close-focus.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/16/go-home.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/session-properties.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-inactive.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/22/preferences-desktop-keyboard.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/themes/FurryLogin/metacity-1/button-min.png
+W: ufurmix-gdm-theme: executable-not-elf-or-script ./usr/share/icons/FurryLoginIcons/apps/24/go-home.png
+W: ufurmix-gdm-theme: gconftool-used-in-maintainer-script postinst:3
+W: ufurmix-gdm-theme: gconftool-used-in-maintainer-script postinst:4
+W: ufurmix-gdm-theme: maintainer-script-ignores-errors postinst
+W: ufurmix-gdm-theme: gconftool-used-in-maintainer-script postrm:3
+W: ufurmix-gdm-theme: gconftool-used-in-maintainer-script postrm:4
+W: ufurmix-gdm-theme: maintainer-script-ignores-errors postrm
+W: ufurmix-gdm-theme: extended-description-line-too-long
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-gdm-theme_0.3.2.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: Неверный пароль; попробуйте еще раз ...
+
+ signfile ufurmix-gdm-theme_0.3.2_i386.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+Successfully signed dsc and changes files

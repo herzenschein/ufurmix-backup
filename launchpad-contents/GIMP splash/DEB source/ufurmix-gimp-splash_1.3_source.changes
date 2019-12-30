@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 Jun 2010 15:53:29 +0400
+Source: ufurmix-gimp-splash
+Binary: ufurmix-gimp-splash
+Architecture: source
+Version: 1.3
+Distribution: lucid
+Urgency: low
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-gimp-splash - A splash screen for GIMP designed for Ubuntu Furry Remix
+Changes: 
+ ufurmix-gimp-splash (1.3) lucid; urgency=low
+ .
+   * Repainted the background again
+   * License changed to GNU GPL
+   * Fixed some nasty bugs in preints/postrm scripts,
+Checksums-Sha1: 
+ 471dffd2047d38632fd36eb1bb720045080029ec 1074 ufurmix-gimp-splash_1.3.dsc
+ ee8cefcc90384eba60c2e32f6603733660490127 116765 ufurmix-gimp-splash_1.3.tar.gz
+Checksums-Sha256: 
+ 4563d0fd9c55e29086431b758f2f13ae37f623fecabe8fe70554b0ac280d4d7d 1074 ufurmix-gimp-splash_1.3.dsc
+ cfb9954d9b73f71b8111808fc6e51a3e3008f684f2f5f8d3f35907cfa37eabec 116765 ufurmix-gimp-splash_1.3.tar.gz
+Files: 
+ 1d4c91278ce0270215430c2ce92c48d1 1074 graphics optional ufurmix-gimp-splash_1.3.dsc
+ 7bec1b72963c0bcbc406016dc0e66966 116765 graphics optional ufurmix-gimp-splash_1.3.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJMGPPkAAoJEDh2a1vjsqhn158IAJ/p+uaairuNjvf8O8GCJSdj
+c6lNcjuvPoHkFLOFmYZMUZ6y75j99X1mYHIVuYHSNSSlttvpFXSZJGrXFX9um3jF
+OxExjNOIThBHTkeTxJGftgzRfeAT39cjGBaBN9Viy7SvisTx2kAedWxXxW0ICWUa
++ORLPESy9+uhMYi2eeLfG7BWh81pqDV15LgZoY4Gr55Vdg8T1U5w1SKnjAKUqDB6
+lynq3sNlFSEQP9fgn0jpTrbxqvtE5TE5rv+KbNHZlu8+o4AhTYDMIZHW6SOxvpRw
+dkeq9xPkB8WmqgFffE/EY1prIw9bdSANI3qtlbxMd+HxuzU8RFhVXKCl3EO3mcs=
+=8jga
+-----END PGP SIGNATURE-----

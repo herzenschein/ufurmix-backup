@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 21 Jan 2011 23:17:25 +0300
+Source: ufurmix-gdm-theme
+Binary: ufurmix-gdm-theme
+Architecture: source
+Version: 0.4.2
+Distribution: lucid
+Urgency: medium
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Changed-By: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Description: 
+ ufurmix-gdm-theme - Ubuntu Furry Remix GDM artwork
+Changes: 
+ ufurmix-gdm-theme (0.4.2) lucid; urgency=medium
+ .
+   * Attempted to fix defaults stuff
+Checksums-Sha1: 
+ 172fcfc304bf8a75e5e6719e0f08de121e250471 1074 ufurmix-gdm-theme_0.4.2.dsc
+ 88b07f181826519670e6d1fc679f30625136720c 1088466 ufurmix-gdm-theme_0.4.2.tar.gz
+Checksums-Sha256: 
+ fc27d3d7d83cf09e01973151aeac57429f1c514376b3ff8ba13faba91386ce2a 1074 ufurmix-gdm-theme_0.4.2.dsc
+ cf63afcd1dc549b4fa66f4344f84fe2b660c87d1f01eb05b0a2adc50d53c331c 1088466 ufurmix-gdm-theme_0.4.2.tar.gz
+Files: 
+ 1be4a44fead8d3cd523fba79ec29697e 1074 gnome optional ufurmix-gdm-theme_0.4.2.dsc
+ d254b93c7293804243b7ff5b0eb66d7d 1088466 gnome optional ufurmix-gdm-theme_0.4.2.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJNOepnAAoJEDX+qKYr3ymzuswIAIVSWwdsatJXZeyGdpqZUC4N
+syc5S6DAxpmao4qK8A/MoXlQhKQ0WvQ6uB12zxJkqFR/q0VGQfG9lz0NX1RntgOE
+iLtm3TEfZlUYtzsH4K/P6ieTzsHD3pWo/m6+EURgWsxq4lMXaNrlIvmJa1GQ5pEP
+JpxEVJSTDMmML5HG+p3rkMgFCCxUyXSplp433xsBRb6I/AJ9YlwV1W6E5GLDLGtf
+/kJn9vX63mGNj0pNhfqDlkI/6Mg/jOk5L72IiD2sjy5m59ujf/ap7HPtDx5UDr0A
+PjvKxMR6GUVAb5Qgf+7kIUHGzVw2Pek+k4tNAQGsrX+Ov5ZEEaEUdBSt3p6h9bA=
+=4xlm
+-----END PGP SIGNATURE-----

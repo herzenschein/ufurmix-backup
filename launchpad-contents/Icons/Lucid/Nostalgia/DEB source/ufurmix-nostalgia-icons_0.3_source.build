@@ -1,0 +1,36 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S
+dpkg-buildpackage: экспорт CFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт CPPFLAGS из dpkg-buildflags (происхождение: vendor): 
+dpkg-buildpackage: экспорт CXXFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт FFLAGS из dpkg-buildflags (происхождение: vendor): -g -O2
+dpkg-buildpackage: экспорт LDFLAGS из dpkg-buildflags (происхождение: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: пакет исходных текстов ufurmix-nostalgia-icons
+dpkg-buildpackage: версия исходных текстов 0.3
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+ dpkg-source --before-build ufurmix-nostalgia-icons-0.3
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-nostalgia-icons-0.3
+dpkg-source: предупреждение: не задан формат исходников в debian/source/format, см. dpkg-source(1)
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-nostalgia-icons в ufurmix-nostalgia-icons_0.3.tar.gz
+dpkg-source: инфо: сборка ufurmix-nostalgia-icons в ufurmix-nostalgia-icons_0.3.dsc
+ dpkg-genchanges -S >../ufurmix-nostalgia-icons_0.3_source.changes
+dpkg-genchanges: в закачку включён весь исходный код
+ dpkg-source --after-build ufurmix-nostalgia-icons-0.3
+dpkg-buildpackage: закачка только пакетов исходного кода: родной пакет Debian
+Now running lintian...
+W: ufurmix-nostalgia-icons source: out-of-date-standards-version 3.8.3 (current is 3.9.1)
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-nostalgia-icons_0.3.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+gpg: Неверный пароль; попробуйте еще раз ...
+
+ signfile ufurmix-nostalgia-icons_0.3_source.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+gpg: gpg-agent недоступен в данной сессии
+
+Successfully signed dsc and changes files

@@ -1,0 +1,18 @@
+Source: ufurmix-components-stable
+Section: metapackages
+Priority: optional
+Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.0
+
+Package: ufurmix-components-stable
+Version: 0.5
+Architecture: all
+Section: metapackages
+Depends: ufurmix-sounds, ufurmix-wallpapers, usplash-theme-ufurmix
+Replaces: furry-remix-desktop
+Suggests: ufurmix-components-experimental
+Copyright: debian/copyright
+Changelog: debian/changelog
+Description: Ubuntu Furry Remix stable components pre-release
+ This package installs "stable" Furry Remix components, which are considered quite mature and suitable for everyday use. This package doesn't set them as default. If you want to replace default Ubuntu theming with Furry Remix, install furry-remix-desktop package instead. Because this is pre-released version, it may still contain bugs (if you notice any, please report them in Launchpad).

@@ -1,0 +1,154 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: установка CFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CPPFLAGS в значение по умолчанию: 
+dpkg-buildpackage: установка LDFLAGS в значение по умолчанию: -Wl,-Bsymbolic-functions
+dpkg-buildpackage: установка FFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CXXFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: пакет исходных текстов ufurmix-icon-theme
+dpkg-buildpackage: версия исходных текстов 0.2.6
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+dpkg-buildpackage: архитектура хоста amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-icon-theme-0.2.6
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-icon-theme в ufurmix-icon-theme_0.2.6.tar.gz
+dpkg-source: инфо: сборка ufurmix-icon-theme в ufurmix-icon-theme_0.2.6.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+touch build-stamp
+ fakeroot debian/rules binary
+dh install
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installcatalogs
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_pysupport
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+for d in $(find /home/serioga/Buffer/Build_waterfall/ufurmix-icon-theme-0.2.6/debian/ufurmix-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
+		(cd $d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $c; done); \
+	done
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 64
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+Setting up icon mapping for: 16
+Setting up icon mapping for: 22
+Setting up icon mapping for: 24
+Setting up icon mapping for: 32
+Setting up icon mapping for: 48
+touch install-stamp
+dh binary-arch
+dh binary-indep
+   dh_installdeb -i
+   dh_gencontrol -i
+   dh_md5sums -i
+   dh_builddeb -i
+dpkg-deb: сборка пакета ufurmix-icon-theme в файл ../ufurmix-icon-theme_0.2.6_all.deb.
+ dpkg-genchanges  >../ufurmix-icon-theme_0.2.6_amd64.changes
+dpkg-genchanges: в закачку включён весь исходный код
+dpkg-buildpackage: закачка всего; родной пакет Debian (включены все пакеты исходного кода)
+Now running lintian...
+W: ufurmix-icon-theme: extra-license-file usr/share/icons/Furry/COPYING
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/places/24/start-here.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/places/22/start-here.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/emblems/22/emblem-important.icon
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/devices/48/camera-photo.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/emblems/48/emblem-important.icon
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/emblems/32/emblem-important.icon
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/devices/48/multimedia-player-ipod.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/emblems/16/emblem-important.icon
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/devices/48/phone.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/emblems/24/emblem-important.icon
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/devices/48/multimedia-player.svg
+W: ufurmix-icon-theme: executable-not-elf-or-script ./usr/share/icons/Furry/devices/48/music-player.svg
+E: ufurmix-icon-theme: no-copyright-file
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-icon-theme_0.2.6.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+ signfile ufurmix-icon-theme_0.2.6_amd64.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+Successfully signed dsc and changes files

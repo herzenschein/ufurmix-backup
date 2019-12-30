@@ -1,0 +1,105 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: установка CFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CPPFLAGS в значение по умолчанию: 
+dpkg-buildpackage: установка LDFLAGS в значение по умолчанию: -Wl,-Bsymbolic-functions
+dpkg-buildpackage: установка FFLAGS в значение по умолчанию: -g -O2
+dpkg-buildpackage: установка CXXFLAGS в значение по умолчанию: -g -O2
+parsechangelog/debian: предупреждение:     debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+dpkg-buildpackage: пакет исходных текстов ufurmix-gimp-splash
+dpkg-buildpackage: версия исходных текстов 1.3
+dpkg-buildpackage: исходные тексты изменены Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+dpkg-buildpackage: архитектура хоста amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b ufurmix-gimp-splash_1.3
+parsechangelog/debian: предупреждение: ufurmix-gimp-splash_1.3/debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+dpkg-source: предупреждение: каталог исходников 'ufurmix-gimp-splash_1.3' не в виде <пакет исходников>-<оригинальная версия> 'ufurmix-gimp-splash-1.3'
+dpkg-source: инфо: используется формат исходника `1.0'
+dpkg-source: инфо: сборка ufurmix-gimp-splash в ufurmix-gimp-splash_1.3.tar.gz
+dpkg-source: инфо: сборка ufurmix-gimp-splash в ufurmix-gimp-splash_1.3.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+parsechangelog/debian: предупреждение:     debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_pysupport
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+parsechangelog/debian: предупреждение:     debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: сборка пакета ufurmix-gimp-splash в файл ../ufurmix-gimp-splash_1.3_all.deb.
+ dpkg-genchanges  >../ufurmix-gimp-splash_1.3_amd64.changes
+parsechangelog/debian: предупреждение:     debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+parsechangelog/debian: предупреждение:     debian/changelog(l6): неправильный формат строки заголовка
+LINE: backup and restore of original splash is now handled properly
+dpkg-genchanges: в закачку включён весь исходный код
+dpkg-buildpackage: закачка всего; родной пакет Debian (включены все пакеты исходного кода)
+Now running lintian...
+W: ufurmix-gimp-splash source: debhelper-but-no-misc-depends ufurmix-gimp-splash
+W: ufurmix-gimp-splash source: maintainer-script-lacks-debhelper-token debian/preinst
+W: ufurmix-gimp-splash source: package-lacks-versioned-build-depends-on-debhelper 7
+W: ufurmix-gimp-splash source: maintainer-script-lacks-debhelper-token debian/postrm
+W: ufurmix-gimp-splash source: missing-debian-source-format
+W: ufurmix-gimp-splash source: out-of-date-standards-version 3.8.0 (current is 3.8.4)
+W: ufurmix-gimp-splash: syntax-error-in-debian-changelog line 6 "неправильный формат строки заголовка"
+W: ufurmix-gimp-splash: copyright-without-copyright-notice
+W: ufurmix-gimp-splash: maintainer-script-ignores-errors preinst
+W: ufurmix-gimp-splash: maintainer-script-ignores-errors postrm
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ufurmix-gimp-splash_1.3.dsc Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+ signfile ufurmix-gimp-splash_1.3_amd64.changes Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+
+Successfully signed dsc and changes files

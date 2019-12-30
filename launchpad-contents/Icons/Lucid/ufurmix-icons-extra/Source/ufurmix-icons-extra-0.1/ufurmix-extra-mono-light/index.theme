@@ -1,0 +1,24 @@
+[Icon Theme]
+Name=ufurmix-extra-mono-light
+Comment=An very furry icon set based on Humanity
+Inherits=ufurmix-mono-light,gnome,hicolor
+
+Example=directory-x-normal
+
+#Directory list
+Directories=places/32,places/48,places/64
+
+[places/32]
+Size=32
+Context=places
+Type=Fixed
+
+[places/48]
+Size=48
+Context=places
+Type=Fixed
+
+[places/64]
+Size=64
+Context=places
+Type=Scalable

@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+# Written by Shnatsel. Feel free to modify and share!
+
+# Adding repositories
+# Furry Remix
+echo 'deb http://ppa.launchpad.net/shnatsel/ppa/ubuntu '$(lsb_release -cs)' main' > /etc/apt/sources.list.d/ufurmix.sources.list
+echo 'deb-src http://ppa.launchpad.net/shnatsel/ppa/ubuntu '$(lsb_release -cs)' main' >> /etc/apt/sources.list.d/ufurmix.sources.list
+# Pidgin updates
+echo 'deb http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu '$(lsb_release -cs)' main' > /etc/apt/sources.list.d/pidgin.sources.list
+echo 'deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu '$(lsb_release -cs)' main' >> /etc/apt/sources.list.d/pidgin.sources.list
+# Medibuntu
+echo 'deb http://packages.medibuntu.org/ '$(lsb_release -cs)' free non-free' > /etc/apt/sources.list.d/medibuntu.list
+echo 'deb-src http://packages.medibuntu.org/ '$(lsb_release -cs)' free non-free' >> /etc/apt/sources.list.d/medibuntu.list
+
+# Importing signing keys
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 75198A89 A1F196A8
+
+# Applying changes
+apt-get --quiet update
+
+# Adding Medibuntu keyring
+apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring
+
+# Applying keyring
+sudo apt-get --quiet update
+
+# Installing Medibuntu stuff
+apt-get --yes install app-install-data-medibuntu apport-hooks-medibuntu

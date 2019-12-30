@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Furry Remix
+Description=Furry splash v2
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/ufurmix-pawprints
+ScriptFile=/lib/plymouth/themes/ufurmix-pawprints/ufurmix-pawprints.script

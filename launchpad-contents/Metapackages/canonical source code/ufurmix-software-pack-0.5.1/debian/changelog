@@ -1,0 +1,11 @@
+ufurmix-software-pack (0.5.1) karmic; urgency=high
+
+  * Removed postinst script, which was causing problems
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 26 Jan 2010 07:51:46 +0300
+
+ufurmix-software-pack (0.5) karmic; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Mon, 25 Jan 2010 14:54:03 +0300

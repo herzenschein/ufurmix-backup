@@ -1,0 +1,14 @@
+[Icon Theme]
+Name=FurryLoginIcons
+Comment=Special icons for the Ubuntu Furry Remix login experience, based on LoginIcons set
+Inherits=LoginIcons,gnome,hicolor
+
+Example=directory-x-normal
+
+#Directory list
+Directories=stock/48
+
+[stock/48]
+Size=48
+Context=Stock
+Type=Scalable

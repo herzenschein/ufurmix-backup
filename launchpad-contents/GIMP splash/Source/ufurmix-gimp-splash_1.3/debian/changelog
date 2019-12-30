@@ -1,0 +1,28 @@
+ufurmix-gimp-splash (1.3) lucid; urgency=low
+
+  * Repainted the background again
+  * License changed to GNU GPL
+  * Fixed some nasty bugs in preints/postrm scripts,
+backup and restore of original splash is now handled properly
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 16 Jun 2010 15:53:29 +0400
+
+ufurmix-gimp-splash (1.2) lucid; urgency=low
+
+  * Repainted the background
+  * Font changed to Pushkin
+  * Removed Python from build dependencies
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 21 May 2010 11:49:22 +0400
+
+ufurmix-gimp-splash (1.1) karmic; urgency=low
+
+  * Moved "the GIMP" caption up a bit
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 01 Jan 2010 14:50:03 +0200
+
+ufurmix-gimp-splash (1.0) karmic; urgency=low
+
+  * Initial release
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 01 Jan 2010 15:23:37 +0300
