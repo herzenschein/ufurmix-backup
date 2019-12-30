@@ -9,5 +9,5 @@ without having to use Launchpad's bazaar (bzr) utility for download.
 Ubuntu Furry Remix, or simply Ufurmix, was a furry distribution 
 whose latest release was during the time of Ubuntu 10.04, in 2012.
 
-The folder launchpad-contents includes files downloaded from Launchpad using bzr, 
-whereas the remaining folders were manually downloaded as per the Launchpad page.
+The folder bazaar-contents includes files downloaded from Launchpad using bzr, 
+whereas launchpad-contents includes files manually downloaded from the Launchpad page.
